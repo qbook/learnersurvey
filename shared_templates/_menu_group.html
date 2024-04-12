@@ -1,0 +1,107 @@
+{% load i18n %}
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="{% url 'dice_roll' %}">{% trans "Dice Roll" %}</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'position_buyer_seller' %}">{% trans "RPG Dashboard" %}</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'group_password' %}">{% trans "Account Settings" %}</a>
+            </li>
+
+            <!-- Help Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="helpDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    {% trans "Help" %}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="helpDropdown">
+                    <li>
+                        <a class="dropdown-item" href="{{ user_guide }}" target="_blank">{% trans "User Guide" %}</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="{{ electronic_book }}" target="_blank">{% trans "Class eBook" %}</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="{{ class_slides }}" target="_blank">{% trans "Class Slides" %}</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="{{ video_lectures }}" target="_blank">{% trans "Class Lectures" %}</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'home' %}">{% trans "Login Page" %}</a>
+            </li>
+
+            <!-- Language Switcher Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    {% trans "Language" %}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <li>
+                        <form action="{% url 'set_language' %}" method="post" id="languageForm">
+                            {% csrf_token %}
+                            <!-- Include the full path with query string for redirection -->
+                            <input name="next" type="hidden" value="{{ request.get_full_path }}">
+                            <input type="hidden" name="language" id="languageInput">
+                        </form>
+                        <a class="dropdown-item language-link" href="#" data-language="en">English</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item language-link" href="#" data-language="zh-hant">中文 (繁體)</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item language-link" href="#" data-language="vi">Tiếng Việt</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item language-link" href="#" data-language="th">แบบไทย</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item language-link" href="#" data-language="ja">日本語</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to change language
+    function changeLanguage(lang) {
+        document.getElementById('languageInput').value = lang;
+        document.getElementById('languageForm').submit();
+    }
+
+    // Attach event listener to language links
+    var languageLinks = document.querySelectorAll('.language-link');
+    languageLinks.forEach(function(link) {
+        link.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent default anchor behavior
+            var lang = this.dataset.language; // Use dataset to get the language
+            changeLanguage(lang);
+        });
+    });
+});
+
+
+/*    function changeLanguage(lang) {  // Submit a change in language activated form the menu
+        document.getElementById('languageInput').value = lang;
+        document.getElementById('languageForm').submit();
+    }*/
+</script>
+
+
+
+
+
+    

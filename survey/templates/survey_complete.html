@@ -1,0 +1,33 @@
+{% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    {% include "_header_00.html" %}
+    <title>Survey Complete</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="card-header">
+            <h5 class="card-title">Survey Complete</h5>
+        <div>
+        <div class="card text-dark bg-light mb-3 shadow">
+            <div class="card-body">
+                <p><a href="{{ surveyReward }}{{ student_id }}" target="_blank">{% trans "CLAIM SURVEY GIFT" %}</a></p>
+
+                <!-- {{ surveyReward }}{{ student_id }} -->
+            </div>
+        </div>
+    </div>
+
+<script>
+$(document).ready(function() {
+
+});//document ready
+
+</script>
+
+</body>
+</html>
+
+

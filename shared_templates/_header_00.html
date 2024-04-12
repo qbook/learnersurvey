@@ -1,0 +1,140 @@
+{% load static %}
+<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+<!-- Include Bootstrap -->
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<style>
+    @keyframes pulse {
+        0% {
+        opacity: 1;
+        }
+        50% {
+        opacity: 0.5;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+    .pulse-effect {
+        animation: pulse 1s infinite;
+    }
+    .hidden-form {
+        display: none;
+    }
+   
+    /* Card Styling */
+    .custom-card {
+        background-color: #f5f5f5;  /* Light gray background */
+        border: 1px solid #1561ad;  /* Dark blue-gray for the border */
+    }
+
+    .custom-card-header {
+        background-color: #1561ad;  /* Dark blue-gray background of header*/
+        color: #ffffff;  /* White text */
+    }
+
+    .custom-card-warn-header {
+        background-color: #fc5226;  /* read-orange background of header*/
+        color: #ffffff;  /* White text */
+    }
+
+    /* Table Styling */
+    .custom-table {
+        background-color: #ffffff;  /* White background for contrast */
+    }
+
+    .custom-thead {
+        background-color: #1c77ac;  /* Even darker blue-gray for the table header */
+        color: #ffffff;  /* White text */
+    }
+
+    .upper-level-header {
+        background-color: #007bff;  /* Bootstrap primary color */
+        color: white;
+        border-right: 2px solid white;  /* Adds a right border */
+        text-align: center;  /* Horizontal centering */
+        vertical-align: middle;  /* Vertical centering */
+    }
+
+    .deal-row:hover {
+        cursor: pointer;
+    }
+
+    .deal-link {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .right-align {
+    float: right;
+    }
+
+    .highlight-negative {
+    color: red;            /* Changes text color to red */
+    font-weight: bold;     /* Makes the text bold */
+    background-color: #ffe0e0; /* Light red background */
+    padding: 5px;          /* Some padding for the background to be visible */
+    }
+
+    .slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Ensure that child elements (the slider) stretch to fill the container */
+    }
+
+    .slider-range-container {
+        display: flex;
+        justify-content: space-between; /* This will push the anchors to the ends */
+        align-items: center;
+        margin-bottom: 100px; /* Adjust space below the slider */
+    }
+
+    input[type="range"] {
+        width: 100%; /* Stretch the slider to fill the container */
+        -webkit-appearance: none; /* Override default styling in WebKit browsers */
+    }
+
+    .question-text {
+    text-align: center; /* Center the question text */
+    }
+
+    .slider-label {
+        font-size: 0.65rem; /* This sets the font size smaller */
+        line-height: 1; /* This reduces the space between lines */
+
+        margin-right: 10px; /* Adjust spacing as needed */
+        margin-left: 10px;  /* Adjust spacing as needed */
+    }
+    
+    .question-text p {
+    margin-bottom: 0; /* Removes the default bottom margin from the paragraph */
+    }
+
+    .slider-value {
+        display: block; /* Make the span display as a block to manipulate margins */
+        margin-top: 0px; /* Pull the score closer to the slider */
+        margin-bottom: -5px; /* Provide some space below the score if needed */
+    }
+
+    .button-center {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content (if needed) */
+    margin-top: 20px; /* Optional: adds some space above the button */
+    }
+
+</style>      

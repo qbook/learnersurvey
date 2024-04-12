@@ -1,0 +1,1233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-25 20:42+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: GameSetup/forms.py:33 GameSetup/templates/group_password.html:49
+#: GameSetup/templates/group_password.html:63
+msgid "Update Password"
+msgstr "อัพเดทรหัสผ่าน"
+
+#: GameSetup/templates/choose_group.html:32
+msgid "GROUP LOG IN:"
+msgstr "เข้าสู่ระบบกลุ่ม:"
+
+#: GameSetup/templates/choose_group.html:38
+msgid "Choose a group:"
+msgstr "เลือกห้องเรียนของคุณ:"
+
+#: GameSetup/templates/choose_group.html:40
+msgid "My Group"
+msgstr "กลุ่มของฉัน"
+
+#: GameSetup/templates/choose_group.html:42
+#: position/templates/position_buyer_seller.html:254
+#: position/templates/position_buyer_seller.html:286
+#: position/templates/position_buyer_seller.html:287
+#: position/templates/position_buyer_seller.html:310
+#: position/templates/position_buyer_seller.html:333
+#: position/templates/position_buyer_seller.html:360
+#: position/templates/position_buyer_seller.html:439
+#: position/templates/position_buyer_seller.html:534
+#: position/templates/position_buyer_seller.html:564
+#: position/templates/position_buyer_seller.html:594
+#: position/templates/position_buyer_seller.html:595
+#: position/templates/position_buyer_seller.html:728
+#: position/templates/position_buyer_seller.html:729
+#: position/templates/position_buyer_seller.html:769
+msgid "Group"
+msgstr "กลุ่ม:"
+
+#: GameSetup/templates/choose_group.html:50
+msgid "Password:"
+msgstr "รหัสผ่าน:"
+
+#: GameSetup/templates/choose_group.html:53
+msgid "Log In"
+msgstr "เข้าสู่ระบบ"
+
+#: GameSetup/templates/choose_group.html:67
+#: GameSetup/templates/group_password.html:21
+#: diceroll/templates/dice_roll.html:26
+#: position/templates/position_buyer_seller.html:16
+msgid "Class:"
+msgstr "ห้องเรียน:"
+
+#: GameSetup/templates/choose_group.html:67
+#: diceroll/templates/dice_roll.html:26
+#: position/templates/position_buyer_seller.html:16
+msgid "Teacher:"
+msgstr "ครู:"
+
+#: GameSetup/templates/group_password.html:20
+#: shared_templates/_menu_group.html:17
+msgid "Account Settings"
+msgstr "ตั้งค่าบัญชี"
+
+#: GameSetup/templates/group_password.html:21
+#: diceroll/templates/dice_roll.html:26
+#: position/templates/position_buyer_seller.html:16
+msgid "Group:"
+msgstr "กลุ่ม:"
+
+#: GameSetup/templates/group_password.html:38
+#: diceroll/templates/dice_roll.html:43
+#: position/templates/position_buyer_seller.html:38
+msgid "GO TO LOGIN PAGE"
+msgstr "ไปยังหน้าเข้าสู่ระบบ"
+
+#: GameSetup/templates/group_password.html:45
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+#: GameSetup/templates/home.html:30
+msgid "Choose your class:"
+msgstr "เลือกห้องเรียนของคุณ:"
+
+#: GameSetup/templates/home.html:40
+msgid "My Class"
+msgstr "ห้องเรียนของฉัน"
+
+#: GameSetup/views.py:406
+msgid "Password updated successfully!"
+msgstr "อัพเดทรหัสผ่านสำเร็จ!"
+
+#: diceroll/templates/dice_roll.html:7 shared_templates/_menu_group.html:11
+msgid "Dice Roll"
+msgstr "ทอยลูกเต๋า"
+
+#: diceroll/templates/dice_roll.html:26
+msgid "DICE Page"
+msgstr "หน้าลูกเต๋า"
+
+#: diceroll/templates/dice_roll.html:49
+msgid "Role Status"
+msgstr "สถานะตัวละคร"
+
+#: diceroll/templates/dice_roll.html:51 diceroll/templates/dice_roll.html:110
+#: position/templates/position_buyer_seller.html:16
+msgid "RPG Round:"
+msgstr "รอบ RPG:"
+
+#: diceroll/templates/dice_roll.html:52
+msgid "Time Now:"
+msgstr "เวลาปัจจุบัน:"
+
+#: diceroll/templates/dice_roll.html:53
+msgid "Dice Roll Starts:"
+msgstr "เริ่มทอยลูกเต๋า:"
+
+#: diceroll/templates/dice_roll.html:54
+msgid "Dice Roll Ends:"
+msgstr "ทอยลูกเต๋าสิ้นสุด:"
+
+#: diceroll/templates/dice_roll.html:58
+msgid "Time Left To START Roll:"
+msgstr "เวลาที่เหลือก่อนเริ่มทอยลูกเต๋า:"
+
+#: diceroll/templates/dice_roll.html:59
+msgid "Time Left To END Roll:"
+msgstr "เวลาที่เหลือก่อนสิ้นสุดทอยลูกเต๋า:"
+
+#: diceroll/templates/dice_roll.html:63
+#: position/templates/position_buyer_seller.html:19
+msgid "Deals End:"
+msgstr "การซื้อขายสิ้นสุด:"
+
+#: diceroll/templates/dice_roll.html:65
+msgid "Product"
+msgstr "สินค้า"
+
+#: diceroll/templates/dice_roll.html:66
+#: position/templates/position_buyer_seller.html:16
+msgid "Product:"
+msgstr "สินค้า:"
+
+#: diceroll/templates/dice_roll.html:67
+msgid "Base Price:"
+msgstr "ราคาพื้นฐาน:"
+
+#: diceroll/templates/dice_roll.html:68
+msgid "Base Units:"
+msgstr "หน่วยพื้นฐาน:"
+
+#: diceroll/templates/dice_roll.html:69
+msgid "Currency:"
+msgstr "สกุลเงิน:"
+
+#: diceroll/templates/dice_roll.html:75
+#: position/templates/position_buyer_seller.html:64
+msgid "Negotiation Position"
+msgstr "ตำแหน่งเจรจาต่อรอง"
+
+#: diceroll/templates/dice_roll.html:78 diceroll/templates/dice_roll.html:146
+#: position/templates/position_buyer_seller.html:67
+msgid "RESISTANCE:"
+msgstr "ราคาต้านทาน:"
+
+#: diceroll/templates/dice_roll.html:80 diceroll/templates/dice_roll.html:158
+#: position/templates/position_buyer_seller.html:69
+msgid "FLEX:"
+msgstr "ความยืดหยุ่น:"
+
+#: diceroll/templates/dice_roll.html:82 diceroll/templates/dice_roll.html:170
+#: position/templates/position_buyer_seller.html:71
+msgid "MAX Purchase:"
+msgstr "จำนวนซื้อสูงสุด:"
+
+#: diceroll/templates/dice_roll.html:84 diceroll/templates/dice_roll.html:183
+#: position/templates/position_buyer_seller.html:73
+msgid "DELIVERY:"
+msgstr "การส่งมอบ:"
+
+#: diceroll/templates/dice_roll.html:86 diceroll/templates/dice_roll.html:195
+#: position/templates/position_buyer_seller.html:75
+msgid "UNITS:"
+msgstr "หน่วย:"
+
+#: diceroll/templates/dice_roll.html:88 diceroll/templates/dice_roll.html:207
+#: position/templates/position_buyer_seller.html:77
+msgid "IMPORTANCE:"
+msgstr "ความสำคัญ:"
+
+#: diceroll/templates/dice_roll.html:90 diceroll/templates/dice_roll.html:219
+#: position/templates/position_buyer_seller.html:79
+msgid "QUALITY:"
+msgstr "คุณภาพ:"
+
+#: diceroll/templates/dice_roll.html:93
+#: position/templates/position_buyer_seller.html:81
+msgid "ROLE:"
+msgstr "บทบาท:"
+
+#: diceroll/templates/dice_roll.html:95
+msgid "Go To RPG Dashboard"
+msgstr "ไปยังแดชบอร์ด RPG"
+
+#: diceroll/templates/dice_roll.html:97
+#: position/templates/position_buyer_seller.html:85
+msgid "Notes:"
+msgstr "บันทึก:"
+
+#: diceroll/templates/dice_roll.html:100
+#: position/templates/position_buyer_seller.html:89
+msgid "(Click to edit note)"
+msgstr "(คลิกเพื่อแก้ไขบันทึก)"
+
+#: diceroll/templates/dice_roll.html:108
+msgid "Role Dice"
+msgstr "ลูกเต๋าตัวละคร"
+
+#: diceroll/templates/dice_roll.html:111
+msgid "Dice Roll Start:"
+msgstr "เริ่มทอยลูกเต๋า:"
+
+#: diceroll/templates/dice_roll.html:112
+msgid "Dice Roll End:"
+msgstr "ทอยลูกเต๋าสิ้นสุด:"
+
+#: diceroll/templates/dice_roll.html:115
+#: position/templates/position_buyer_seller.html:764
+msgid "Marketplace"
+msgstr "ตลาด"
+
+#: diceroll/templates/dice_roll.html:116
+#: position/templates/position_buyer_seller.html:761
+msgid "BUYERS:"
+msgstr "ผู้ซื้อ"
+
+#: diceroll/templates/dice_roll.html:116
+#: position/templates/position_buyer_seller.html:761
+msgid "SELLERS:"
+msgstr "ผู้ขาย:"
+
+#: diceroll/templates/dice_roll.html:122
+msgid "Roll Dice"
+msgstr "ทอยลูกเต๋า"
+
+#: diceroll/templates/dice_roll.html:124
+msgid "ROLLING"
+msgstr "กำลังทอยลูกเต๋า"
+
+#: diceroll/templates/dice_roll.html:127
+msgid "Rolls Left:"
+msgstr "จำนวนทอยลูกเต๋าที่เหลือ:"
+
+#: diceroll/templates/dice_roll.html:128
+msgid "Spend These Points:"
+msgstr "ใช้จุดเหล่านี้:"
+
+#: diceroll/templates/dice_roll.html:129
+msgid "Negotiation Role:"
+msgstr "บทบาทการเจรจาต่อรอง:"
+
+#: diceroll/templates/dice_roll.html:132
+msgid "Last RPG rank:"
+msgstr "อันดับ RPG ล่าสุด:"
+
+#: diceroll/templates/dice_roll.html:132
+msgid "Percentile:"
+msgstr "เปอร์เซ็นไทล์:"
+
+#: diceroll/templates/dice_roll.html:134
+msgid "Achievement Bonus Points:"
+msgstr "คะแนนโบนัสความสำเร็จ:"
+
+#: diceroll/templates/dice_roll.html:141
+msgid "Distribute Points"
+msgstr "แจกจุด"
+
+#: diceroll/templates/dice_roll.html:143
+msgid "Spend your points here."
+msgstr "ใช้จุดของคุณที่นี่"
+
+#: diceroll/templates/dice_roll.html:143
+msgid "Click"
+msgstr "คลิก"
+
+#: diceroll/templates/dice_roll.html:143
+msgid "Play Now"
+msgstr "เล่นตอนนี้"
+
+#: diceroll/templates/dice_roll.html:143
+msgid "when ready."
+msgstr "เมื่อพร้อม"
+
+#: diceroll/templates/dice_roll.html:143
+msgid "Once you click Play Now"
+msgstr "(หลังจากคลิก 'เล่นตอนนี้' ตำแหน่งของคุณจะถูกล็อกและ"
+
+#: diceroll/templates/dice_roll.html:230
+msgid "Play NOW"
+msgstr "เล่นทันที"
+
+#: diceroll/templates/dice_roll.html:239
+msgid "Are you sure you want to lock in your numbers"
+msgstr "คุณแน่ใจหรือไม่ที่จะล็อคตัวเลขของคุณสำหรับเกม RPG นี้? การกระทำนี้ไม่สามารถยกเลิกได้"
+
+#: diceroll/templates/dice_roll.html:240
+msgid "Attributes updated successfully."
+msgstr "อัปเดตคุณสมบัติสำเร็จแล้ว"
+
+#: diceroll/templates/dice_roll.html:241
+msgid "Failed to update attributes."
+msgstr "อัปเดตคุณสมบัติล้มเหลว"
+
+#: diceroll/templates/dice_roll.html:242
+msgid "Average Delivery Acceptable"
+msgstr "สามารถจัดส่งได้ด้วยความเร็วปกติ"
+
+#: diceroll/templates/dice_roll.html:243
+msgid "Average Quality Acceptable"
+msgstr "สามารถให้คุณภาพระดับปานกลาง"
+
+#: diceroll/templates/dice_roll.html:244
+msgid "Base Price"
+msgstr "ราคาพื้นฐาน"
+
+#: diceroll/templates/dice_roll.html:245
+msgid "Base Units"
+msgstr "หน่วยพื้นฐาน"
+
+#: diceroll/templates/dice_roll.html:246
+msgid "Bonus"
+msgstr "โบนัส"
+
+#: diceroll/templates/dice_roll.html:247
+#: position/templates/position_buyer_seller.html:800
+msgid "BUYER"
+msgstr "ผู้ซื้อ"
+
+#: diceroll/templates/dice_roll.html:248
+msgid "Capable of Average Delivery"
+msgstr "สามารถจัดส่งได้ด้วยความเร็วปกติ"
+
+#: diceroll/templates/dice_roll.html:249
+msgid "Capable of Average Quality"
+msgstr "สามารถให้คุณภาพระดับปานกลาง"
+
+#: diceroll/templates/dice_roll.html:250
+msgid "Capable of Fast Delivery"
+msgstr "สามารถจัดส่งได้ด้วยความเร็วรวดเร็ว"
+
+#: diceroll/templates/dice_roll.html:251
+msgid "Capable of High Quality"
+msgstr "สามารถให้คุณภาพระดับสูง"
+
+#: diceroll/templates/dice_roll.html:252
+#: position/templates/position_buyer_seller.html:809
+msgid "Distribute Points Here"
+msgstr "จัดสรรคะแนนที่นี่"
+
+#: diceroll/templates/dice_roll.html:253
+msgid "An error occurred."
+msgstr "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ"
+
+#: diceroll/templates/dice_roll.html:254
+msgid "Fast Delivery Required"
+msgstr "ต้องการการจัดส่งด่วน"
+
+#: diceroll/templates/dice_roll.html:255
+msgid "Flex Point"
+msgstr "คะแนนยืดหยุ่น"
+
+#: diceroll/templates/dice_roll.html:256
+#: position/templates/position_buyer_seller.html:290
+#: position/templates/position_buyer_seller.html:508
+#: position/templates/position_buyer_seller.html:674
+msgid "Flex Points"
+msgstr "คะแนนยืดหยุ่น"
+
+#: diceroll/templates/dice_roll.html:257
+msgid "High Quality Required"
+msgstr "ต้องการคุณภาพสูง"
+
+#: diceroll/templates/dice_roll.html:258
+#: position/templates/position_buyer_seller.html:825
+msgid "Important"
+msgstr "ความสำคัญ"
+
+#: diceroll/templates/dice_roll.html:259
+#: position/templates/position_buyer_seller.html:830
+msgid "Kind Of Important"
+msgstr "ค่อนข้างสำคัญ"
+
+#: diceroll/templates/dice_roll.html:260
+msgid "Low Quality Acceptable"
+msgstr "สามารถยอมรับคุณภาพต่ำได้"
+
+#: diceroll/templates/dice_roll.html:261
+msgid "Mod. Units"
+msgstr "หน่วย"
+
+#: diceroll/templates/dice_roll.html:262
+#: position/templates/position_buyer_seller.html:837
+msgid "NONE"
+msgstr "ไม่มี"
+
+#: diceroll/templates/dice_roll.html:263
+msgid "Only For Buyer"
+msgstr "เฉพาะผู้ซื้อเท่านั้น"
+
+#: diceroll/templates/dice_roll.html:264
+msgid "Only Capable of Low Quality"
+msgstr "สามารถให้คุณภาพต่ำเท่านั้น"
+
+#: diceroll/templates/dice_roll.html:265
+msgid "Only Capable of Slow Delivery"
+msgstr "สามารถจัดส่งช้าเท่านั้น"
+
+#: diceroll/templates/dice_roll.html:266
+msgid "Roll dice before distributing points!"
+msgstr "โปรดทอยลูกเต๋าก่อนแจกจ่ายคะแนน!"
+
+#: diceroll/templates/dice_roll.html:267
+#: position/templates/position_buyer_seller.html:844
+msgid "SELLER"
+msgstr "ผู้ขาย"
+
+#: diceroll/templates/dice_roll.html:268
+msgid "Slow Delivery Acceptable"
+msgstr "สามารถยอมรับการจัดส่งช้าได้"
+
+#: diceroll/templates/dice_roll.html:269
+#: position/templates/position_buyer_seller.html:848
+msgid "Small Potatoes"
+msgstr "เรื่องเล็กน้อย"
+
+#: diceroll/templates/dice_roll.html:270
+#: position/templates/position_buyer_seller.html:849
+msgid "Somewhat Important"
+msgstr "ค่อนข้างสำคัญ"
+
+#: diceroll/templates/dice_roll.html:271
+msgid "You cannot spend more than your total points. \\n Remove: "
+msgstr "คุณไม่สามารถใช้จ่ายเกินกว่าคะแนนทั้งหมดของคุณ ลบออก:"
+
+#: diceroll/templates/dice_roll.html:272
+msgid "Try again"
+msgstr "กรุณาลองอีกครั้ง"
+
+#: diceroll/templates/dice_roll.html:273
+msgid "Time Over!"
+msgstr "เวลาหมดลง!"
+
+#: diceroll/templates/dice_roll.html:274
+msgid "Time To Roll Dice!"
+msgstr "ถึงเวลาทอยลูกเต๋าแล้ว!"
+
+#: diceroll/templates/dice_roll.html:275
+#: position/templates/position_buyer_seller.html:854
+msgid "Very Important"
+msgstr "สำคัญมาก"
+
+#: diceroll/templates/dice_roll.html:276
+#: position/templates/position_buyer_seller.html:855
+msgid "Vital Importance"
+msgstr "สำคัญยิ่ง"
+
+#: diceroll/views.py:137
+msgid "Roll sent to server."
+msgstr "ผลการทอยลูกเต๋าถูกส่งไปยังเซิร์ฟเวอร์แล้ว"
+
+#: diceroll/views.py:139
+msgid "No rolls left"
+msgstr "ไม่มีโอกาสทอยลูกเต๋าเหลืออยู่"
+
+#: diceroll/views.py:158
+msgid "Record not found"
+msgstr "ไม่พบบันทึก"
+
+#: position/templates/position_buyer_seller.html:16
+msgid "RPG DASHBOARD"
+msgstr "แผงควบคุม RPG"
+
+#: position/templates/position_buyer_seller.html:18
+msgid "Deals Begin:"
+msgstr "เริ่มการทำธุรกรรม:"
+
+#: position/templates/position_buyer_seller.html:45
+msgid "REFRESH TO UPDATE"
+msgstr "รีเฟรชเพื่ออัปเดต"
+
+#: position/templates/position_buyer_seller.html:55
+msgid "FINISH SURVEY NOW"
+msgstr "โปรดทำแบบสำรวจทันที (รับเงิน 100 ดอลลาร์ไต้หวัน)"
+
+#: position/templates/position_buyer_seller.html:92
+msgid "Save"
+msgstr "บันทึก"
+
+#: position/templates/position_buyer_seller.html:98
+msgid "Actions"
+msgstr "การดำเนินการ"
+
+#: position/templates/position_buyer_seller.html:105
+msgid "Send A Deal"
+msgstr "ส่งธุรกรรม"
+
+#: position/templates/position_buyer_seller.html:106
+msgid "Cancel A Deal"
+msgstr "ยกเลิกธุรกรรม"
+
+#: position/templates/position_buyer_seller.html:107
+msgid "Gift Flex Points"
+msgstr "มอบคะแนนยืดหยุ่น"
+
+#: position/templates/position_buyer_seller.html:108
+msgid "Message A Group"
+msgstr "ส่งข้อความถึงกลุ่ม"
+
+#: position/templates/position_buyer_seller.html:113
+msgid "PURCHASE/SALE ORDER"
+msgstr "คำสั่งซื้อ/ขาย"
+
+#: position/templates/position_buyer_seller.html:118
+#: position/templates/position_buyer_seller.html:164
+msgid "Counterpart:"
+msgstr "คู่สัญญา:"
+
+#: position/templates/position_buyer_seller.html:121
+msgid "Units:"
+msgstr "หน่วย:"
+
+#: position/templates/position_buyer_seller.html:124
+msgid "Price:"
+msgstr "ราคา:"
+
+#: position/templates/position_buyer_seller.html:127
+msgid "Quality:"
+msgstr "คุณภาพ:"
+
+#: position/templates/position_buyer_seller.html:135
+msgid "Delivery:"
+msgstr "การส่งมอบ:"
+
+#: position/templates/position_buyer_seller.html:146
+msgid "Send Deal"
+msgstr "ส่งธุรกรรม"
+
+#: position/templates/position_buyer_seller.html:149
+#: position/templates/position_buyer_seller.html:166
+msgid "Deal ID:"
+msgstr "หมายเลขธุรกรรม:"
+
+#: position/templates/position_buyer_seller.html:149
+msgid "Buyer and seller must use SAME Deal ID."
+msgstr "ผู้ซื้อและผู้ขายต้องใช้หมายเลขธุรกรรมเดียวกัน"
+
+#: position/templates/position_buyer_seller.html:150
+msgid "Use this NEW Deal ID."
+msgstr "ใช้หมายเลขธุรกรรมใหม่นี้"
+
+#: position/templates/position_buyer_seller.html:159
+msgid "CANCEL PURCHASE ORDER"
+msgstr "ยกเลิกคำสั่งซื้อ"
+
+#: position/templates/position_buyer_seller.html:171
+msgid "Cancel Deal"
+msgstr "ยกเลิกธุรกรรม"
+
+#: position/templates/position_buyer_seller.html:180
+msgid "SEND FLEX POINTS"
+msgstr "ส่งคะแนนยืดหยุ่น"
+
+#: position/templates/position_buyer_seller.html:185
+#: position/templates/position_buyer_seller.html:208
+msgid "Send To:"
+msgstr "ส่งไปยัง:"
+
+#: position/templates/position_buyer_seller.html:187
+#: position/templates/position_buyer_seller.html:380
+msgid "Flex Points:"
+msgstr "คะแนนยืดหยุ่น:"
+
+#: position/templates/position_buyer_seller.html:189
+#: position/templates/position_buyer_seller.html:212
+msgid "Message:"
+msgstr "ข้อความ:"
+
+#: position/templates/position_buyer_seller.html:194
+msgid "Send Flex Points"
+msgstr "ส่งคะแนนยืดหยุ่น"
+
+#: position/templates/position_buyer_seller.html:203
+msgid "SEND MESSAGE"
+msgstr "ส่งข้อความ"
+
+#: position/templates/position_buyer_seller.html:210
+msgid "Message Subject:"
+msgstr "หัวข้อข้อความ:"
+
+#: position/templates/position_buyer_seller.html:217
+msgid "Send Message"
+msgstr "ส่งข้อความ"
+
+#: position/templates/position_buyer_seller.html:237
+msgid "Deals Completed"
+msgstr "ธุรกรรมที่เสร็จสมบูรณ์"
+
+#: position/templates/position_buyer_seller.html:242
+#: position/templates/position_buyer_seller.html:274
+#: position/templates/position_buyer_seller.html:301
+#: position/templates/position_buyer_seller.html:324
+#: position/templates/position_buyer_seller.html:351
+#: position/templates/position_buyer_seller.html:385
+#: position/templates/position_buyer_seller.html:428
+#: position/templates/position_buyer_seller.html:533
+#: position/templates/position_buyer_seller.html:563
+#: position/templates/position_buyer_seller.html:593
+msgid "Deal ID"
+msgstr "หมายเลขธุรกรรม"
+
+#: position/templates/position_buyer_seller.html:243
+msgid "With"
+msgstr "กับ"
+
+#: position/templates/position_buyer_seller.html:244
+#: position/templates/position_buyer_seller.html:278
+#: position/templates/position_buyer_seller.html:386
+#: position/templates/position_buyer_seller.html:535
+#: position/templates/position_buyer_seller.html:565
+#: position/templates/position_buyer_seller.html:597
+msgid "Units"
+msgstr "หน่วย"
+
+#: position/templates/position_buyer_seller.html:245
+#: position/templates/position_buyer_seller.html:430
+#: position/templates/position_buyer_seller.html:536
+#: position/templates/position_buyer_seller.html:566
+#: position/templates/position_buyer_seller.html:598
+#: position/templates/position_buyer_seller.html:630
+#: position/templates/position_buyer_seller.html:635
+#: position/templates/position_buyer_seller.html:639
+msgid "Price"
+msgstr "ราคา"
+
+#: position/templates/position_buyer_seller.html:246
+#: position/templates/position_buyer_seller.html:537
+#: position/templates/position_buyer_seller.html:567
+#: position/templates/position_buyer_seller.html:599
+msgid "Qual."
+msgstr "คุณภาพ"
+
+#: position/templates/position_buyer_seller.html:247
+#: position/templates/position_buyer_seller.html:538
+#: position/templates/position_buyer_seller.html:568
+#: position/templates/position_buyer_seller.html:600
+msgid "Deliv."
+msgstr "การส่งมอบ"
+
+#: position/templates/position_buyer_seller.html:264
+msgid "Deals waiting for counterparties are not shown here."
+msgstr "ไม่แสดงธุรกรรมที่รอคู่สัญญาที่นี่"
+
+#: position/templates/position_buyer_seller.html:268
+msgid "Canceled Deals"
+msgstr "ธุรกรรมที่ถูกยกเลิก"
+
+#: position/templates/position_buyer_seller.html:270
+msgid "Deals Canceled With Penalty"
+msgstr "ธุรกรรมที่ถูกยกเลิกพร้อมค่าปรับ"
+
+#: position/templates/position_buyer_seller.html:275
+#: position/templates/position_buyer_seller.html:302
+msgid "Canceled By"
+msgstr "ผู้ยกเลิก"
+
+#: position/templates/position_buyer_seller.html:276
+#: position/templates/position_buyer_seller.html:326
+#: position/templates/position_buyer_seller.html:353
+#: position/templates/position_buyer_seller.html:429
+msgid "Counterpart"
+msgstr "คู่สัญญา"
+
+#: position/templates/position_buyer_seller.html:277
+#: position/templates/position_buyer_seller.html:303
+#: position/templates/position_buyer_seller.html:596
+msgid "Role"
+msgstr "บทบาท"
+
+#: position/templates/position_buyer_seller.html:279
+msgid "Penalty"
+msgstr "ค่าปรับ"
+
+#: position/templates/position_buyer_seller.html:297
+msgid "Deals Canceled By Both"
+msgstr "ธุรกรรมที่ถูกยกเลิกทั้งสองฝ่าย"
+
+#: position/templates/position_buyer_seller.html:319
+msgid "Invalid Deals"
+msgstr "ธุรกรรมที่ไม่ถูกต้อง"
+
+#: position/templates/position_buyer_seller.html:319
+#: position/templates/position_buyer_seller.html:346
+msgid "(Repeated Deal ID)"
+msgstr "(หมายเลขธุรกรรมซ้ำ)"
+
+#: position/templates/position_buyer_seller.html:325
+#: position/templates/position_buyer_seller.html:352
+msgid "Sent By"
+msgstr "ผู้ส่ง"
+
+#: position/templates/position_buyer_seller.html:340
+msgid "No repeated Deal IDs."
+msgstr "ไม่มีหมายเลขธุรกรรมซ้ำ"
+
+#: position/templates/position_buyer_seller.html:346
+msgid "Invalid Cancels"
+msgstr "การยกเลิกที่ไม่ถูกต้อง"
+
+#: position/templates/position_buyer_seller.html:367
+msgid "No repeated cancel Deal IDs."
+msgstr "ไม่มีหมายเลขธุรกรรมการยกเลิกซ้ำ"
+
+#: position/templates/position_buyer_seller.html:371
+msgid "Canceling deals costs:"
+msgstr "ต้นทุนของการยกเลิกธุรกรรม:"
+
+#: position/templates/position_buyer_seller.html:372
+msgid "Both parties cancel = NO cost to you & NO cost to counterparty."
+msgstr "การยกเลิกทั้งสองฝ่าย = คุณไม่มีต้นทุน & คู่สัญญาไม่มีต้นทุน"
+
+#: position/templates/position_buyer_seller.html:373
+msgid ""
+"You cancel but counterparty does NOT cancel = 0.5 Flex Points per 100 units "
+"of the deal (minimum fee of 1 rounded down afterward)."
+msgstr "คุณไม่ยกเลิกแต่คู่สัญญายกเลิก = คุณไม่มีค่าใช้จ่ายเพิ่มเติม (ข้อตกลงถูกยกเลิก)"
+
+#: position/templates/position_buyer_seller.html:374
+msgid ""
+"You do NOT cancel but counterparty cancels = NO extra cost to you (deal is "
+"lost)."
+msgstr "คุณไม่ยกเลิกแต่คู่สัญญายกเลิก = คุณไม่มีค่าใช้จ่ายเพิ่มเติม (ข้อตกลงถูกยกเลิก)"
+
+#: position/templates/position_buyer_seller.html:375
+msgid "Role 1 = Buyer; -1 = Seller."
+msgstr "บทบาท 1 = ผู้ซื้อ; -1 = ผู้ขาย"
+
+#: position/templates/position_buyer_seller.html:376
+msgid "Use a DEAL ID only ONCE!"
+msgstr "ใช้หมายเลขข้อตกลงเพียงครั้งเดียว!"
+
+#: position/templates/position_buyer_seller.html:387
+msgid "Qual. Gap"
+msgstr "ช่องว่างคุณภาพ"
+
+#: position/templates/position_buyer_seller.html:388
+msgid "Deliv. Gap"
+msgstr "ช่องว่างการส่งมอบ"
+
+#: position/templates/position_buyer_seller.html:389
+msgid "Loss/Gain"
+msgstr "ขาดทุน/กำไร"
+
+#: position/templates/position_buyer_seller.html:405
+msgid "Bonus:"
+msgstr "โบนัส:"
+
+#: position/templates/position_buyer_seller.html:409
+msgid "Over Production:"
+msgstr "การผลิตเกิน:"
+
+#: position/templates/position_buyer_seller.html:415
+#: position/templates/position_buyer_seller.html:819
+msgid "Going higher gains Flex Points (1 point per 100 units)."
+msgstr "การผลิตเกินเพิ่ม Flex Points (1 คะแนนต่อ 100 หน่วย)"
+
+#: position/templates/position_buyer_seller.html:416
+#: position/templates/position_buyer_seller.html:822
+msgid "Going lower spends Flex Points (1 point per 100 units)."
+msgstr "การผลิตน้อยลงใช้ Flex Points (1 คะแนนต่อ 100 หน่วย)"
+
+#: position/templates/position_buyer_seller.html:417
+msgid ""
+"Canceling a deal will have a cost if both sides do NOT agree (see Canceled "
+"Deals area)."
+msgstr "การยกเลิกข้อตกลงจะมีค่าใช้จ่ายหากทั้งสองฝ่ายไม่เห็นด้วย (ดูที่ส่วนข้อตกลงที่ถูกยกเลิก)"
+
+#: position/templates/position_buyer_seller.html:418
+#, python-format
+msgid ""
+"Earn extra Flex Points by making more deals with different groups (at least "
+"10%% of target units with different groups)."
+msgstr "การผลิตเกินขีดจำกัดสูงสุด ทุก 10%% ของหน่วยที่เพิ่มขึ้นจะต้องใช้ Flex Point 1 คะแนน"
+
+#: position/templates/position_buyer_seller.html:419
+#, python-format
+msgid ""
+"Production over MAX costs 1 Flex Point for every 10%% increase over UNITS."
+msgstr "การผลิตเกินขีดจำกัดสูงสุด ทุก 10%% ของหน่วยที่เพิ่มขึ้นจะต้องใช้ Flex Point 1 คะแนน"
+
+#: position/templates/position_buyer_seller.html:423
+msgid "Weighted Avg. Price"
+msgstr "ราคาเฉลี่ยถ่วงน้ำหนัก"
+
+#: position/templates/position_buyer_seller.html:431
+msgid "Quantity (Units)"
+msgstr "ปริมาณ (หน่วย)"
+
+#: position/templates/position_buyer_seller.html:432
+msgid "Weighted Price"
+msgstr "ราคาถ่วงน้ำหนัก"
+
+#: position/templates/position_buyer_seller.html:448
+msgid "Total Units:"
+msgstr "หน่วยทั้งหมด:"
+
+#: position/templates/position_buyer_seller.html:452
+msgid "Average Weighted Price:"
+msgstr "ราคาเฉลี่ยถ่วงน้ำหนัก:"
+
+#: position/templates/position_buyer_seller.html:463
+msgid "Inventory"
+msgstr "สินค้าคงคลัง"
+
+#: position/templates/position_buyer_seller.html:470
+msgid "Total"
+msgstr "รวม"
+
+#: position/templates/position_buyer_seller.html:471
+msgid "Target"
+msgstr "เป้าหมาย"
+
+#: position/templates/position_buyer_seller.html:484
+msgid "Not Go Over:"
+msgstr "ไม่เกิน:"
+
+#: position/templates/position_buyer_seller.html:501
+msgid "Flex Point Send/Receive"
+msgstr "ส่ง/รับ Flex Points"
+
+#: position/templates/position_buyer_seller.html:506
+msgid "From Group"
+msgstr "จากกลุ่ม"
+
+#: position/templates/position_buyer_seller.html:507
+msgid "To Group"
+msgstr "ไปยังกลุ่ม"
+
+#: position/templates/position_buyer_seller.html:509
+#: position/templates/position_buyer_seller.html:731
+msgid "Message"
+msgstr "ข้อความ"
+
+#: position/templates/position_buyer_seller.html:524
+#: position/templates/position_buyer_seller.html:748
+msgid "Note: Only data for the current RPG round are shown."
+msgstr "หมายเหตุ: แสดงเฉพาะข้อมูลของรอบ RPG ปัจจุบัน"
+
+#: position/templates/position_buyer_seller.html:528
+msgid "Deals Waiting For Counterpart"
+msgstr "การซื้อขายที่รอคู่ต่อสู้"
+
+#: position/templates/position_buyer_seller.html:534
+#: position/templates/position_buyer_seller.html:594
+#: position/templates/position_buyer_seller.html:729
+msgid "To"
+msgstr "ถึง"
+
+#: position/templates/position_buyer_seller.html:558
+msgid "Deals Waiting For You"
+msgstr "การซื้อขายที่รอคุณ"
+
+#: position/templates/position_buyer_seller.html:564
+#: position/templates/position_buyer_seller.html:595
+#: position/templates/position_buyer_seller.html:728
+msgid "From"
+msgstr "จาก"
+
+#: position/templates/position_buyer_seller.html:588
+msgid "Deals Mismatched"
+msgstr "การซื้อขายไม่ตรงกัน"
+
+#: position/templates/position_buyer_seller.html:619
+msgid "These deals use the same Deal ID but do not match."
+msgstr "การซื้อขายเหล่านี้ใช้หมายเลข ID เดียวกันแต่ไม่ตรงกัน"
+
+#: position/templates/position_buyer_seller.html:620
+msgid "Senders need to cancel these."
+msgstr "ผู้ส่งต้องยกเลิกเหล่านี้"
+
+#: position/templates/position_buyer_seller.html:621
+msgid "Note: Role 1 = Buyer; -1 = Seller."
+msgstr "หมายเหตุ: บทบาท 1 = ผู้ซื้อ; -1 = ผู้ขาย"
+
+#: position/templates/position_buyer_seller.html:625
+msgid "RPG Score:"
+msgstr "คะแนน RPG:"
+
+#: position/templates/position_buyer_seller.html:630
+#: position/templates/position_buyer_seller.html:635
+#: position/templates/position_buyer_seller.html:639
+msgid "Resistance"
+msgstr "ความต้านทาน"
+
+#: position/templates/position_buyer_seller.html:632
+#: position/templates/position_buyer_seller.html:633
+msgid "Weighted"
+msgstr "ถ่วงน้ำหนัก"
+
+#: position/templates/position_buyer_seller.html:632
+#: position/templates/position_buyer_seller.html:633
+msgid "Avg. Price"
+msgstr "ราคาเฉลี่ย"
+
+#: position/templates/position_buyer_seller.html:678
+msgid "Importance"
+msgstr "ความสำคัญ"
+
+#: position/templates/position_buyer_seller.html:700
+#: position/templates/position_buyer_seller.html:826
+msgid "Inventory Bought"
+msgstr "สินค้าคงคลังที่ซื้อ"
+
+#: position/templates/position_buyer_seller.html:701
+#: position/templates/position_buyer_seller.html:829
+msgid "Inventory Sold"
+msgstr "สินค้าคงคลังที่ขาย"
+
+#: position/templates/position_buyer_seller.html:703
+msgid "Score"
+msgstr "คะแนน"
+
+#: position/templates/position_buyer_seller.html:715
+msgid "SCORE:"
+msgstr "คะแนน:"
+
+#: position/templates/position_buyer_seller.html:723
+msgid "Messages Received"
+msgstr "ข้อความที่ได้รับ"
+
+#: position/templates/position_buyer_seller.html:730
+msgid "Subject"
+msgstr "หัวข้อ"
+
+#: position/templates/position_buyer_seller.html:732
+msgid "Date"
+msgstr "วันที่"
+
+#: position/templates/position_buyer_seller.html:755
+msgid "Change Round"
+msgstr "เปลี่ยนรอบ"
+
+#: position/templates/position_buyer_seller.html:770
+msgid "RPG Role"
+msgstr "บทบาท RPG"
+
+#: position/templates/position_buyer_seller.html:771
+msgid "Current Score"
+msgstr "คะแนนปัจจุบัน"
+
+#: position/templates/position_buyer_seller.html:772
+msgid "Rank"
+msgstr ""
+
+#: position/templates/position_buyer_seller.html:773
+msgid "Percentile"
+msgstr ""
+
+#: position/templates/position_buyer_seller.html:798
+msgid "Average"
+msgstr "เฉลี่ย"
+
+#: position/templates/position_buyer_seller.html:799
+msgid "[2] Average"
+msgstr "[2] เฉลี่ย"
+
+#: position/templates/position_buyer_seller.html:801
+msgid "You cannot buy over your resistance price."
+msgstr "คุณไม่สามารถซื้อเกินราคาต้านทานของคุณ"
+
+#: position/templates/position_buyer_seller.html:802
+msgid "You cannot sell below your resistance price."
+msgstr "คุณไม่สามารถขายต่ำกว่าราคาต้านทานของคุณ"
+
+#: position/templates/position_buyer_seller.html:803
+msgid "Counterpart must be a positive number."
+msgstr "คู่ค้าต้องเป็นจำนวนบวก"
+
+#: position/templates/position_buyer_seller.html:804
+msgid " Try to make a deal for faster."
+msgstr " พยายามทำข้อตกลงเพื่อการส่งมอบที่เร็วขึ้น"
+
+#: position/templates/position_buyer_seller.html:805
+msgid " Try to make a deal for higher."
+msgstr " พยายามทำข้อตกลงเพื่อราคาที่สูงขึ้น"
+
+#: position/templates/position_buyer_seller.html:806
+msgid " Try to make a deal for lower."
+msgstr " พยายามทำข้อตกลงเพื่อราคาที่ต่ำกว่า"
+
+#: position/templates/position_buyer_seller.html:807
+msgid " Try to make a deal for slower."
+msgstr " พยายามทำข้อตกลงเพื่อการส่งมอบที่ช้าลง"
+
+#: position/templates/position_buyer_seller.html:808
+msgid "Delivery must be between Slow and Fast."
+msgstr "การส่งมอบต้องอยู่ระหว่างช้าและเร็ว"
+
+#: position/templates/position_buyer_seller.html:810
+msgid " Do not buy more than this."
+msgstr " อย่าซื้อเกินจำนวนนี้"
+
+#: position/templates/position_buyer_seller.html:811
+msgid "Do NOT Buy Over:"
+msgstr "อย่าซื้อเกิน:"
+
+#: position/templates/position_buyer_seller.html:812
+msgid " Do not pay more than this."
+msgstr " อย่าจ่ายเกินราคานี้"
+
+#: position/templates/position_buyer_seller.html:813
+msgid " Do not sell for less than this."
+msgstr " อย่าขายต่ำกว่าราคานี้"
+
+#: position/templates/position_buyer_seller.html:814
+msgid " Spend, collect, or gift these."
+msgstr " ใช้จ่าย รวบรวม หรือมอบของขวัญเหล่านี้"
+
+#: position/templates/position_buyer_seller.html:815
+msgid "Form validation failed:"
+msgstr "การตรวจสอบฟอร์มล้มเหลว:"
+
+#: position/templates/position_buyer_seller.html:816
+msgid "Missing gift receiver."
+msgstr "ขาดผู้รับของขวัญ"
+
+#: position/templates/position_buyer_seller.html:817
+msgid "Missing gift amount (must be positive number)."
+msgstr "ขาดจำนวนของขวัญ (ต้องเป็นตัวเลขบวก)"
+
+#: position/templates/position_buyer_seller.html:818
+msgid "You must include a short message."
+msgstr "คุณต้องรวมข้อความสั้นๆ"
+
+#: position/templates/position_buyer_seller.html:820
+msgid "Going HIGHER spends Flex Points (1 point per 100 units)."
+msgstr "ลดลงจะใช้แต้มยืดหยุ่น (1 แต้มต่อทุก 100 หน่วย)"
+
+#: position/templates/position_buyer_seller.html:821
+msgid "Going LOWER gains Flex Points (1 point per 100 units)."
+msgstr "เพิ่มขึ้นจะได้รับแต้มยืดหยุ่น (1 แต้มต่อทุก 100 หน่วย)"
+
+#: position/templates/position_buyer_seller.html:823
+msgid "[3] High"
+msgstr "[3] สูง"
+
+#: position/templates/position_buyer_seller.html:824
+msgid "How important is this deal."
+msgstr "การทำธุรกรรมนี้สำคัญแค่ไหน"
+
+#: position/templates/position_buyer_seller.html:827
+msgid "Inventory bought over your MAX Purchase"
+msgstr "สินค้าคงคลังที่ซื้อเกินขีดจำกัดการซื้อสูงสุดของคุณ"
+
+#: position/templates/position_buyer_seller.html:828
+msgid "will cause bankruptcy."
+msgstr "อาจทำให้ล้มละลาย"
+
+#: position/templates/position_buyer_seller.html:831
+msgid "[1] Low"
+msgstr "[1] ต่ำ"
+
+#: position/templates/position_buyer_seller.html:832
+msgid "MAX Sales:"
+msgstr "จำนวนการขายสูงสุด:"
+
+#: position/templates/position_buyer_seller.html:833
+msgid "Missing message receiver."
+msgstr "ขาดผู้รับข้อความ"
+
+#: position/templates/position_buyer_seller.html:834
+msgid "Missing message short subject."
+msgstr "ขาดหัวข้อสั้นของข้อความ"
+
+#: position/templates/position_buyer_seller.html:835
+msgid "Missing message."
+msgstr "ขาดข้อความ"
+
+#: position/templates/position_buyer_seller.html:836
+msgid "New Deal ID:"
+msgstr "รหัสธุรกรรมใหม่:"
+
+#: position/templates/position_buyer_seller.html:838
+msgid "Not time for deals yet."
+msgstr "ยังไม่ถึงเวลาทำธุรกรรม"
+
+#: position/templates/position_buyer_seller.html:839
+msgid "Deals can begin at "
+msgstr "ธุรกรรมสามารถเริ่มได้ที่ "
+
+#: position/templates/position_buyer_seller.html:840
+msgid "Price must be a positive number."
+msgstr "ราคาต้องเป็นตัวเลขบวก"
+
+#: position/templates/position_buyer_seller.html:841
+msgid "PURCHASE ORDER"
+msgstr "ใบสั่งซื้อ/ขาย"
+
+#: position/templates/position_buyer_seller.html:842
+msgid "Quality must be between Low and High."
+msgstr "คุณภาพต้องอยู่ระหว่างต่ำและสูง"
+
+#: position/templates/position_buyer_seller.html:843
+msgid "SALE INVOICE"
+msgstr "ใบแจ้งหนี้การขาย"
+
+#: position/templates/position_buyer_seller.html:845
+msgid "Selling over MAX will cost Flex Points to increase capacity."
+msgstr "การขายเกิน MAX จะต้องใช้แต้มยืดหยุ่นเพื่อเพิ่มความสามารถ"
+
+#: position/templates/position_buyer_seller.html:846
+msgid " Selling over this will cost Flex Points."
+msgstr "การขายเกินจำนวนนี้จะต้องใช้แต้มยืดหยุ่น"
+
+#: position/templates/position_buyer_seller.html:847
+msgid "Slow"
+msgstr "ช้า"
+
+#: position/templates/position_buyer_seller.html:850
+msgid " Target buying at least this many."
+msgstr "มุ่งหวังการซื้ออย่างน้อยจำนวนนี้"
+
+#: position/templates/position_buyer_seller.html:851
+msgid " Target selling at least this many."
+msgstr "มุ่งหวังการขายอย่างน้อยจำนวนนี้"
+
+#: position/templates/position_buyer_seller.html:852
+msgid "Target This:"
+msgstr "เป้าหมายนี้:"
+
+#: position/templates/position_buyer_seller.html:853
+msgid "Units must be a positive number."
+msgstr "จำนวนต้องเป็นตัวเลขบวก"
+
+#: position/templates/position_buyer_seller.html:856
+msgid "Complete Survey"
+msgstr "กรุณาทำแบบสอบถามและรับคู"
+
+#: position/views.py:1028
+msgid "Deal saved."
+msgstr "การทำธุรกรรมถูกบันทึกแล้ว"
+
+#: position/views.py:1032 position/views.py:1064 position/views.py:1095
+#: position/views.py:1126
+msgid "Form is not valid."
+msgstr "แบบฟอร์มไม่ถูกต้อง"
+
+#: position/views.py:1036 position/views.py:1067 position/views.py:1098
+#: position/views.py:1129
+msgid "Method not allowed."
+msgstr "วิธีการนี้ไม่ได้รับอนุญาต"
+
+#: position/views.py:1061
+msgid "Cancel of deal saved."
+msgstr "การยกเลิกธุรกรรมถูกบันทึกแล้ว"
+
+#: position/views.py:1092
+msgid "Gift sent."
+msgstr "ของขวัญได้ถูกส่งแล้ว"
+
+#: position/views.py:1123
+msgid "Message sent."
+msgstr "ข้อความได้ถูกส่งแล้ว"
+
+#: shared_templates/_menu_admin.html:20
+msgid "Settings"
+msgstr "ตั้งค่า"
+
+#: shared_templates/_menu_admin.html:41 shared_templates/_menu_group.html:23
+msgid "Help"
+msgstr "ช่วยเหลือ"
+
+#: shared_templates/_menu_admin.html:45 shared_templates/_menu_group.html:27
+msgid "User Guide"
+msgstr "คู่มือการใช้งาน"
+
+#: shared_templates/_menu_admin.html:48 shared_templates/_menu_group.html:30
+msgid "Class eBook"
+msgstr "หนังสืออิเล็กทรอนิกส์ของชั้นเรียน"
+
+#: shared_templates/_menu_admin.html:51 shared_templates/_menu_group.html:33
+msgid "Class Slides"
+msgstr "สไลด์การสอน"
+
+#: shared_templates/_menu_admin.html:54 shared_templates/_menu_group.html:36
+msgid "Class Lectures"
+msgstr "บรรยายในชั้นเรียน"
+
+#: shared_templates/_menu_group.html:14
+msgid "RPG Dashboard"
+msgstr "แดชบอร์ด RPG"
+
+#: shared_templates/_menu_group.html:42
+msgid "Login Page"
+msgstr "หน้าเข้าสู่ระบบ"
+
+#: shared_templates/_menu_group.html:48
+msgid "Language"
+msgstr "ภาษา"
+
+#: survey/templates/survey_complete.html:17
+msgid "CLAIM SURVEY GIFT"
+msgstr "รับรางวัลจากการสำรวจ"
+
+#: survey/templates/survey_complete.html:19
+msgid "BACK TO RPG"
+msgstr "กลับไปยังเกม RPG"

@@ -1,0 +1,1255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-25 20:42+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: GameSetup/forms.py:33 GameSetup/templates/group_password.html:49
+#: GameSetup/templates/group_password.html:63
+msgid "Update Password"
+msgstr "パスワードを更新"
+
+#: GameSetup/templates/choose_group.html:32
+msgid "GROUP LOG IN:"
+msgstr "グループログイン："
+
+#: GameSetup/templates/choose_group.html:38
+msgid "Choose a group:"
+msgstr "グループを選択："
+
+#: GameSetup/templates/choose_group.html:40
+msgid "My Group"
+msgstr "私のグループ"
+
+#: GameSetup/templates/choose_group.html:42
+#: position/templates/position_buyer_seller.html:254
+#: position/templates/position_buyer_seller.html:286
+#: position/templates/position_buyer_seller.html:287
+#: position/templates/position_buyer_seller.html:310
+#: position/templates/position_buyer_seller.html:333
+#: position/templates/position_buyer_seller.html:360
+#: position/templates/position_buyer_seller.html:439
+#: position/templates/position_buyer_seller.html:534
+#: position/templates/position_buyer_seller.html:564
+#: position/templates/position_buyer_seller.html:594
+#: position/templates/position_buyer_seller.html:595
+#: position/templates/position_buyer_seller.html:728
+#: position/templates/position_buyer_seller.html:729
+#: position/templates/position_buyer_seller.html:769
+msgid "Group"
+msgstr "グループ："
+
+#: GameSetup/templates/choose_group.html:50
+msgid "Password:"
+msgstr "パスワード："
+
+#: GameSetup/templates/choose_group.html:53
+msgid "Log In"
+msgstr "ログイン"
+
+#: GameSetup/templates/choose_group.html:67
+#: GameSetup/templates/group_password.html:21
+#: diceroll/templates/dice_roll.html:26
+#: position/templates/position_buyer_seller.html:16
+msgid "Class:"
+msgstr "クラス："
+
+#: GameSetup/templates/choose_group.html:67
+#: diceroll/templates/dice_roll.html:26
+#: position/templates/position_buyer_seller.html:16
+msgid "Teacher:"
+msgstr "教師："
+
+#: GameSetup/templates/group_password.html:20
+#: shared_templates/_menu_group.html:17
+msgid "Account Settings"
+msgstr "アカウント設定"
+
+#: GameSetup/templates/group_password.html:21
+#: diceroll/templates/dice_roll.html:26
+#: position/templates/position_buyer_seller.html:16
+msgid "Group:"
+msgstr "グループ："
+
+#: GameSetup/templates/group_password.html:38
+#: diceroll/templates/dice_roll.html:43
+#: position/templates/position_buyer_seller.html:38
+msgid "GO TO LOGIN PAGE"
+msgstr "ログインページへ"
+
+#: GameSetup/templates/group_password.html:45
+msgid "Password"
+msgstr "パスワード"
+
+#: GameSetup/templates/home.html:30
+msgid "Choose your class:"
+msgstr "あなたのクラスを選択："
+
+#: GameSetup/templates/home.html:40
+msgid "My Class"
+msgstr "私のクラス"
+
+#: GameSetup/views.py:406
+msgid "Password updated successfully!"
+msgstr "パスワードが正常に更新されました！"
+
+#: diceroll/templates/dice_roll.html:7 shared_templates/_menu_group.html:11
+msgid "Dice Roll"
+msgstr "サイコロを振る"
+
+#: diceroll/templates/dice_roll.html:26
+msgid "DICE Page"
+msgstr "サイコロページ"
+
+#: diceroll/templates/dice_roll.html:49
+msgid "Role Status"
+msgstr "役割の状態"
+
+#: diceroll/templates/dice_roll.html:51 diceroll/templates/dice_roll.html:110
+#: position/templates/position_buyer_seller.html:16
+msgid "RPG Round:"
+msgstr "RPG ラウンド："
+
+#: diceroll/templates/dice_roll.html:52
+msgid "Time Now:"
+msgstr "現在の時間："
+
+#: diceroll/templates/dice_roll.html:53
+msgid "Dice Roll Starts:"
+msgstr "サイコロの開始："
+
+#: diceroll/templates/dice_roll.html:54
+msgid "Dice Roll Ends:"
+msgstr "サイコロの終了："
+
+#: diceroll/templates/dice_roll.html:58
+msgid "Time Left To START Roll:"
+msgstr "サイコロを開始するまでの残り時間："
+
+#: diceroll/templates/dice_roll.html:59
+msgid "Time Left To END Roll:"
+msgstr "サイコロを"
+
+#: diceroll/templates/dice_roll.html:63
+#: position/templates/position_buyer_seller.html:19
+msgid "Deals End:"
+msgstr "取引終了："
+
+#: diceroll/templates/dice_roll.html:65
+msgid "Product"
+msgstr "製品"
+
+#: diceroll/templates/dice_roll.html:66
+#: position/templates/position_buyer_seller.html:16
+msgid "Product:"
+msgstr "製品："
+
+#: diceroll/templates/dice_roll.html:67
+msgid "Base Price:"
+msgstr "基本価格："
+
+#: diceroll/templates/dice_roll.html:68
+msgid "Base Units:"
+msgstr "基本単位："
+
+#: diceroll/templates/dice_roll.html:69
+msgid "Currency:"
+msgstr "通貨："
+
+#: diceroll/templates/dice_roll.html:75
+#: position/templates/position_buyer_seller.html:64
+msgid "Negotiation Position"
+msgstr "交渉位置"
+
+#: diceroll/templates/dice_roll.html:78 diceroll/templates/dice_roll.html:146
+#: position/templates/position_buyer_seller.html:67
+msgid "RESISTANCE:"
+msgstr "抵抗値："
+
+#: diceroll/templates/dice_roll.html:80 diceroll/templates/dice_roll.html:158
+#: position/templates/position_buyer_seller.html:69
+msgid "FLEX:"
+msgstr "フレックス："
+
+#: diceroll/templates/dice_roll.html:82 diceroll/templates/dice_roll.html:170
+#: position/templates/position_buyer_seller.html:71
+msgid "MAX Purchase:"
+msgstr "最大購入量："
+
+#: diceroll/templates/dice_roll.html:84 diceroll/templates/dice_roll.html:183
+#: position/templates/position_buyer_seller.html:73
+msgid "DELIVERY:"
+msgstr "配達："
+
+#: diceroll/templates/dice_roll.html:86 diceroll/templates/dice_roll.html:195
+#: position/templates/position_buyer_seller.html:75
+msgid "UNITS:"
+msgstr "単位："
+
+#: diceroll/templates/dice_roll.html:88 diceroll/templates/dice_roll.html:207
+#: position/templates/position_buyer_seller.html:77
+msgid "IMPORTANCE:"
+msgstr "重要度："
+
+#: diceroll/templates/dice_roll.html:90 diceroll/templates/dice_roll.html:219
+#: position/templates/position_buyer_seller.html:79
+msgid "QUALITY:"
+msgstr "品質："
+
+#: diceroll/templates/dice_roll.html:93
+#: position/templates/position_buyer_seller.html:81
+msgid "ROLE:"
+msgstr "役割："
+
+#: diceroll/templates/dice_roll.html:95
+msgid "Go To RPG Dashboard"
+msgstr "RPGダッシュボードへ"
+
+#: diceroll/templates/dice_roll.html:97
+#: position/templates/position_buyer_seller.html:85
+msgid "Notes:"
+msgstr "ノート："
+
+#: diceroll/templates/dice_roll.html:100
+#: position/templates/position_buyer_seller.html:89
+msgid "(Click to edit note)"
+msgstr "（ノートを編集するにはクリック）"
+
+#: diceroll/templates/dice_roll.html:108
+msgid "Role Dice"
+msgstr "役割ダイス"
+
+#: diceroll/templates/dice_roll.html:111
+msgid "Dice Roll Start:"
+msgstr "ダイスロール開始："
+
+#: diceroll/templates/dice_roll.html:112
+msgid "Dice Roll End:"
+msgstr "ダイスロール終了："
+
+#: diceroll/templates/dice_roll.html:115
+#: position/templates/position_buyer_seller.html:764
+msgid "Marketplace"
+msgstr "マーケットプレイス"
+
+#: diceroll/templates/dice_roll.html:116
+#: position/templates/position_buyer_seller.html:761
+msgid "BUYERS:"
+msgstr "買い手："
+
+#: diceroll/templates/dice_roll.html:116
+#: position/templates/position_buyer_seller.html:761
+msgid "SELLERS:"
+msgstr "売り手："
+
+#: diceroll/templates/dice_roll.html:122
+msgid "Roll Dice"
+msgstr "サイコロを振る"
+
+#: diceroll/templates/dice_roll.html:124
+msgid "ROLLING"
+msgstr "ローリング中"
+
+#: diceroll/templates/dice_roll.html:127
+msgid "Rolls Left:"
+msgstr "残りのロール："
+
+#: diceroll/templates/dice_roll.html:128
+msgid "Spend These Points:"
+msgstr "これらのポイントを使う："
+
+#: diceroll/templates/dice_roll.html:129
+msgid "Negotiation Role:"
+msgstr "交渉役："
+
+#: diceroll/templates/dice_roll.html:132
+msgid "Last RPG rank:"
+msgstr "最後のRPGランク："
+
+#: diceroll/templates/dice_roll.html:132
+msgid "Percentile:"
+msgstr "パーセンタイル："
+
+#: diceroll/templates/dice_roll.html:134
+msgid "Achievement Bonus Points:"
+msgstr "達成ボーナスポイント："
+
+#: diceroll/templates/dice_roll.html:141
+msgid "Distribute Points"
+msgstr "ポイントを配分"
+
+#: diceroll/templates/dice_roll.html:143
+msgid "Spend your points here."
+msgstr "ここでポイントを使う。"
+
+#: diceroll/templates/dice_roll.html:143
+msgid "Click"
+msgstr "クリック"
+
+#: diceroll/templates/dice_roll.html:143
+msgid "Play Now"
+msgstr "今すぐプレイ"
+
+#: diceroll/templates/dice_roll.html:143
+msgid "when ready."
+msgstr "準備ができたら。"
+
+#: diceroll/templates/dice_roll.html:143
+msgid "Once you click Play Now"
+msgstr "「今すぐプレイ」をクリックすると、"
+
+#: diceroll/templates/dice_roll.html:230
+msgid "Play NOW"
+msgstr "今すぐプレイ"
+
+#: diceroll/templates/dice_roll.html:239
+msgid "Are you sure you want to lock in your numbers"
+msgstr "このRPGで数字を固定してもよろしいですか？\\nこれは取り消しできません。"
+
+#: diceroll/templates/dice_roll.html:240
+msgid "Attributes updated successfully."
+msgstr "属性が正常に更新されました。"
+
+#: diceroll/templates/dice_roll.html:241
+msgid "Failed to update attributes."
+msgstr "属性の更新に失敗しました。"
+
+#: diceroll/templates/dice_roll.html:242
+msgid "Average Delivery Acceptable"
+msgstr "平均配達可能"
+
+#: diceroll/templates/dice_roll.html:243
+msgid "Average Quality Acceptable"
+msgstr "平均品質可能"
+
+#: diceroll/templates/dice_roll.html:244
+msgid "Base Price"
+msgstr "基本価格"
+
+#: diceroll/templates/dice_roll.html:245
+msgid "Base Units"
+msgstr "基本単位"
+
+#: diceroll/templates/dice_roll.html:246
+msgid "Bonus"
+msgstr "ボーナス"
+
+#: diceroll/templates/dice_roll.html:247
+#: position/templates/position_buyer_seller.html:800
+msgid "BUYER"
+msgstr "買い手"
+
+#: diceroll/templates/dice_roll.html:248
+msgid "Capable of Average Delivery"
+msgstr "平均配達可能"
+
+#: diceroll/templates/dice_roll.html:249
+msgid "Capable of Average Quality"
+msgstr "平均品質可能"
+
+#: diceroll/templates/dice_roll.html:250
+msgid "Capable of Fast Delivery"
+msgstr "迅速配達可能"
+
+#: diceroll/templates/dice_roll.html:251
+msgid "Capable of High Quality"
+msgstr "高品質可能"
+
+#: diceroll/templates/dice_roll.html:252
+#: position/templates/position_buyer_seller.html:809
+msgid "Distribute Points Here"
+msgstr "ここでポイントを配布"
+
+#: diceroll/templates/dice_roll.html:253
+msgid "An error occurred."
+msgstr ""
+"エラーが発生しました。再試行してください。\\nインターネット接続を確認してくだ"
+"さい。"
+
+#: diceroll/templates/dice_roll.html:254
+msgid "Fast Delivery Required"
+msgstr "迅速な配達が必要"
+
+#: diceroll/templates/dice_roll.html:255
+msgid "Flex Point"
+msgstr "フレックスポイント"
+
+#: diceroll/templates/dice_roll.html:256
+#: position/templates/position_buyer_seller.html:290
+#: position/templates/position_buyer_seller.html:508
+#: position/templates/position_buyer_seller.html:674
+msgid "Flex Points"
+msgstr "フレックスポイント"
+
+#: diceroll/templates/dice_roll.html:257
+msgid "High Quality Required"
+msgstr "高品質が必要"
+
+#: diceroll/templates/dice_roll.html:258
+#: position/templates/position_buyer_seller.html:825
+msgid "Important"
+msgstr "重要"
+
+#: diceroll/templates/dice_roll.html:259
+#: position/templates/position_buyer_seller.html:830
+msgid "Kind Of Important"
+msgstr "それなりに重要"
+
+#: diceroll/templates/dice_roll.html:260
+msgid "Low Quality Acceptable"
+msgstr "低品質可"
+
+#: diceroll/templates/dice_roll.html:261
+msgid "Mod. Units"
+msgstr "修正ユニット"
+
+#: diceroll/templates/dice_roll.html:262
+#: position/templates/position_buyer_seller.html:837
+msgid "NONE"
+msgstr "なし"
+
+#: diceroll/templates/dice_roll.html:263
+msgid "Only For Buyer"
+msgstr "買い手のみ"
+
+#: diceroll/templates/dice_roll.html:264
+msgid "Only Capable of Low Quality"
+msgstr "低品質のみ可能"
+
+#: diceroll/templates/dice_roll.html:265
+msgid "Only Capable of Slow Delivery"
+msgstr "遅い配達のみ可能"
+
+#: diceroll/templates/dice_roll.html:266
+msgid "Roll dice before distributing points!"
+msgstr "ポイントを配布する前にサイコロを振ってください！"
+
+#: diceroll/templates/dice_roll.html:267
+#: position/templates/position_buyer_seller.html:844
+msgid "SELLER"
+msgstr "売り手"
+
+#: diceroll/templates/dice_roll.html:268
+msgid "Slow Delivery Acceptable"
+msgstr "遅い配達可"
+
+#: diceroll/templates/dice_roll.html:269
+#: position/templates/position_buyer_seller.html:848
+msgid "Small Potatoes"
+msgstr "小さな問題"
+
+#: diceroll/templates/dice_roll.html:270
+#: position/templates/position_buyer_seller.html:849
+msgid "Somewhat Important"
+msgstr "ある程度重要"
+
+#: diceroll/templates/dice_roll.html:271
+msgid "You cannot spend more than your total points. \\n Remove: "
+msgstr "合計ポイント以上は使用できません。\\n 取り除く："
+
+#: diceroll/templates/dice_roll.html:272
+msgid "Try again"
+msgstr "再試行してください"
+
+#: diceroll/templates/dice_roll.html:273
+msgid "Time Over!"
+msgstr "時間終了！"
+
+#: diceroll/templates/dice_roll.html:274
+msgid "Time To Roll Dice!"
+msgstr "サイコロを振る時間です！"
+
+#: diceroll/templates/dice_roll.html:275
+#: position/templates/position_buyer_seller.html:854
+msgid "Very Important"
+msgstr "非常に重要"
+
+#: diceroll/templates/dice_roll.html:276
+#: position/templates/position_buyer_seller.html:855
+msgid "Vital Importance"
+msgstr "極めて重要"
+
+#: diceroll/views.py:137
+msgid "Roll sent to server."
+msgstr "サーバーに送信されたロール。"
+
+#: diceroll/views.py:139
+msgid "No rolls left"
+msgstr "残りのロールはありません"
+
+#: diceroll/views.py:158
+msgid "Record not found"
+msgstr "記録が見つかりません"
+
+#: position/templates/position_buyer_seller.html:16
+msgid "RPG DASHBOARD"
+msgstr "RPGダッシュボード"
+
+#: position/templates/position_buyer_seller.html:18
+msgid "Deals Begin:"
+msgstr "取引開始："
+
+#: position/templates/position_buyer_seller.html:45
+msgid "REFRESH TO UPDATE"
+msgstr "更新するためにリフレッシュ"
+
+#: position/templates/position_buyer_seller.html:55
+msgid "FINISH SURVEY NOW"
+msgstr "今すぐ調査を完了する"
+
+#: position/templates/position_buyer_seller.html:92
+msgid "Save"
+msgstr "保存"
+
+#: position/templates/position_buyer_seller.html:98
+msgid "Actions"
+msgstr "アクション"
+
+#: position/templates/position_buyer_seller.html:105
+msgid "Send A Deal"
+msgstr "取引を送信"
+
+#: position/templates/position_buyer_seller.html:106
+msgid "Cancel A Deal"
+msgstr "取引をキャンセル"
+
+#: position/templates/position_buyer_seller.html:107
+msgid "Gift Flex Points"
+msgstr "フレックスポイントをギフト"
+
+#: position/templates/position_buyer_seller.html:108
+msgid "Message A Group"
+msgstr "グループにメッセージを送る"
+
+#: position/templates/position_buyer_seller.html:113
+msgid "PURCHASE/SALE ORDER"
+msgstr "購入/販売注文"
+
+#: position/templates/position_buyer_seller.html:118
+#: position/templates/position_buyer_seller.html:164
+msgid "Counterpart:"
+msgstr "対応者："
+
+#: position/templates/position_buyer_seller.html:121
+msgid "Units:"
+msgstr "単位："
+
+#: position/templates/position_buyer_seller.html:124
+msgid "Price:"
+msgstr "価格："
+
+#: position/templates/position_buyer_seller.html:127
+msgid "Quality:"
+msgstr "品質："
+
+#: position/templates/position_buyer_seller.html:135
+msgid "Delivery:"
+msgstr "配達："
+
+#: position/templates/position_buyer_seller.html:146
+msgid "Send Deal"
+msgstr "取引を送信"
+
+#: position/templates/position_buyer_seller.html:149
+#: position/templates/position_buyer_seller.html:166
+msgid "Deal ID:"
+msgstr "取引ID："
+
+#: position/templates/position_buyer_seller.html:149
+msgid "Buyer and seller must use SAME Deal ID."
+msgstr "買い手と売り手は同じ取引IDを使用する必要があります。"
+
+#: position/templates/position_buyer_seller.html:150
+msgid "Use this NEW Deal ID."
+msgstr "この新しい取引IDを使用してください。"
+
+#: position/templates/position_buyer_seller.html:159
+msgid "CANCEL PURCHASE ORDER"
+msgstr "購入注文をキャンセル"
+
+#: position/templates/position_buyer_seller.html:171
+msgid "Cancel Deal"
+msgstr "取引をキャンセル"
+
+#: position/templates/position_buyer_seller.html:180
+msgid "SEND FLEX POINTS"
+msgstr "フレックスポイントを送信"
+
+#: position/templates/position_buyer_seller.html:185
+#: position/templates/position_buyer_seller.html:208
+msgid "Send To:"
+msgstr "送信先："
+
+#: position/templates/position_buyer_seller.html:187
+#: position/templates/position_buyer_seller.html:380
+msgid "Flex Points:"
+msgstr "フレックスポイント："
+
+#: position/templates/position_buyer_seller.html:189
+#: position/templates/position_buyer_seller.html:212
+msgid "Message:"
+msgstr "メッセージ："
+
+#: position/templates/position_buyer_seller.html:194
+msgid "Send Flex Points"
+msgstr "フレックスポイントを送信"
+
+#: position/templates/position_buyer_seller.html:203
+msgid "SEND MESSAGE"
+msgstr "メッセージを送信"
+
+#: position/templates/position_buyer_seller.html:210
+msgid "Message Subject:"
+msgstr "メッセージの件名："
+
+#: position/templates/position_buyer_seller.html:217
+msgid "Send Message"
+msgstr "メッセージを送信"
+
+#: position/templates/position_buyer_seller.html:237
+msgid "Deals Completed"
+msgstr "完了した取引"
+
+#: position/templates/position_buyer_seller.html:242
+#: position/templates/position_buyer_seller.html:274
+#: position/templates/position_buyer_seller.html:301
+#: position/templates/position_buyer_seller.html:324
+#: position/templates/position_buyer_seller.html:351
+#: position/templates/position_buyer_seller.html:385
+#: position/templates/position_buyer_seller.html:428
+#: position/templates/position_buyer_seller.html:533
+#: position/templates/position_buyer_seller.html:563
+#: position/templates/position_buyer_seller.html:593
+msgid "Deal ID"
+msgstr "取引ID"
+
+#: position/templates/position_buyer_seller.html:243
+msgid "With"
+msgstr "相手："
+
+#: position/templates/position_buyer_seller.html:244
+#: position/templates/position_buyer_seller.html:278
+#: position/templates/position_buyer_seller.html:386
+#: position/templates/position_buyer_seller.html:535
+#: position/templates/position_buyer_seller.html:565
+#: position/templates/position_buyer_seller.html:597
+msgid "Units"
+msgstr "単位"
+
+#: position/templates/position_buyer_seller.html:245
+#: position/templates/position_buyer_seller.html:430
+#: position/templates/position_buyer_seller.html:536
+#: position/templates/position_buyer_seller.html:566
+#: position/templates/position_buyer_seller.html:598
+#: position/templates/position_buyer_seller.html:630
+#: position/templates/position_buyer_seller.html:635
+#: position/templates/position_buyer_seller.html:639
+msgid "Price"
+msgstr "価格"
+
+#: position/templates/position_buyer_seller.html:246
+#: position/templates/position_buyer_seller.html:537
+#: position/templates/position_buyer_seller.html:567
+#: position/templates/position_buyer_seller.html:599
+msgid "Qual."
+msgstr "品質"
+
+#: position/templates/position_buyer_seller.html:247
+#: position/templates/position_buyer_seller.html:538
+#: position/templates/position_buyer_seller.html:568
+#: position/templates/position_buyer_seller.html:600
+msgid "Deliv."
+msgstr "配送"
+
+#: position/templates/position_buyer_seller.html:264
+msgid "Deals waiting for counterparties are not shown here."
+msgstr "相手方待ちの取引はここに表示されません。"
+
+#: position/templates/position_buyer_seller.html:268
+msgid "Canceled Deals"
+msgstr "キャンセルされた取引"
+
+#: position/templates/position_buyer_seller.html:270
+msgid "Deals Canceled With Penalty"
+msgstr "ペナルティ付きでキャンセルされた取引"
+
+#: position/templates/position_buyer_seller.html:275
+#: position/templates/position_buyer_seller.html:302
+msgid "Canceled By"
+msgstr "キャンセル者"
+
+#: position/templates/position_buyer_seller.html:276
+#: position/templates/position_buyer_seller.html:326
+#: position/templates/position_buyer_seller.html:353
+#: position/templates/position_buyer_seller.html:429
+msgid "Counterpart"
+msgstr "対応する相手"
+
+#: position/templates/position_buyer_seller.html:277
+#: position/templates/position_buyer_seller.html:303
+#: position/templates/position_buyer_seller.html:596
+msgid "Role"
+msgstr "役割"
+
+#: position/templates/position_buyer_seller.html:279
+msgid "Penalty"
+msgstr "ペナルティ"
+
+#: position/templates/position_buyer_seller.html:297
+msgid "Deals Canceled By Both"
+msgstr "両者による取引キャンセル"
+
+#: position/templates/position_buyer_seller.html:319
+msgid "Invalid Deals"
+msgstr "無効な取引"
+
+#: position/templates/position_buyer_seller.html:319
+#: position/templates/position_buyer_seller.html:346
+msgid "(Repeated Deal ID)"
+msgstr "（取引IDの重複）"
+
+#: position/templates/position_buyer_seller.html:325
+#: position/templates/position_buyer_seller.html:352
+msgid "Sent By"
+msgstr "送信者"
+
+#: position/templates/position_buyer_seller.html:340
+msgid "No repeated Deal IDs."
+msgstr "取引IDの重複はありません。"
+
+#: position/templates/position_buyer_seller.html:346
+msgid "Invalid Cancels"
+msgstr "無効なキャンセル"
+
+#: position/templates/position_buyer_seller.html:367
+msgid "No repeated cancel Deal IDs."
+msgstr "取引IDのキャンセルの重複はありません。"
+
+#: position/templates/position_buyer_seller.html:371
+msgid "Canceling deals costs:"
+msgstr "取引のキャンセルにかかるコスト："
+
+#: position/templates/position_buyer_seller.html:372
+msgid "Both parties cancel = NO cost to you & NO cost to counterparty."
+msgstr "両者がキャンセルする場合 = あなたにも相手にもコストはかかりません。"
+
+#: position/templates/position_buyer_seller.html:373
+msgid ""
+"You cancel but counterparty does NOT cancel = 0.5 Flex Points per 100 units "
+"of the deal (minimum fee of 1 rounded down afterward)."
+msgstr ""
+"あなたがキャンセルしても相手がキャンセルしない場合 = 取引の100ユニットごとに"
+"0.5フレックスポイント（その後の最低料金は1に切り捨て）。"
+
+#: position/templates/position_buyer_seller.html:374
+msgid ""
+"You do NOT cancel but counterparty cancels = NO extra cost to you (deal is "
+"lost)."
+msgstr ""
+"あなたがキャンセルせず、相手がキャンセルする場合 = 追加のコストはかかりません"
+"（取引は失われます）。"
+
+#: position/templates/position_buyer_seller.html:375
+msgid "Role 1 = Buyer; -1 = Seller."
+msgstr "役割1 = 購入者; -1 = 販売者。"
+
+#: position/templates/position_buyer_seller.html:376
+msgid "Use a DEAL ID only ONCE!"
+msgstr "取引IDは一度だけ使用してください！"
+
+#: position/templates/position_buyer_seller.html:387
+msgid "Qual. Gap"
+msgstr "品質の差"
+
+#: position/templates/position_buyer_seller.html:388
+msgid "Deliv. Gap"
+msgstr "配達の差"
+
+#: position/templates/position_buyer_seller.html:389
+msgid "Loss/Gain"
+msgstr "損失/利益"
+
+#: position/templates/position_buyer_seller.html:405
+msgid "Bonus:"
+msgstr "ボーナス："
+
+#: position/templates/position_buyer_seller.html:409
+msgid "Over Production:"
+msgstr "超過生産："
+
+#: position/templates/position_buyer_seller.html:415
+#: position/templates/position_buyer_seller.html:819
+msgid "Going higher gains Flex Points (1 point per 100 units)."
+msgstr ""
+"超過するとフレックスポイントが増加します（100ユニットあたり1ポイント）。"
+
+#: position/templates/position_buyer_seller.html:416
+#: position/templates/position_buyer_seller.html:822
+msgid "Going lower spends Flex Points (1 point per 100 units)."
+msgstr ""
+"減少するとフレックスポイントが減少します（100ユニットあたり1ポイント）。"
+
+#: position/templates/position_buyer_seller.html:417
+msgid ""
+"Canceling a deal will have a cost if both sides do NOT agree (see Canceled "
+"Deals area)."
+msgstr ""
+"両者が同意しない場合、取引をキャンセルするとコストがかかります（キャンセルさ"
+"れた取引のエリアを参照）。"
+
+#: position/templates/position_buyer_seller.html:418
+#, python-format
+msgid ""
+"Earn extra Flex Points by making more deals with different groups (at least "
+"10%% of target units with different groups)."
+msgstr ""
+"異なるグループとの取引を増やすことで追加のフレックスポイントを獲得できます"
+"（異なるグループで目標ユニットの少なくとも10%%）。"
+
+#: position/templates/position_buyer_seller.html:419
+#, python-format
+msgid ""
+"Production over MAX costs 1 Flex Point for every 10%% increase over UNITS."
+msgstr ""
+"最大生産量を超える生産は、ユニット10%%増加ごとに1フレックスポイントがかかりま"
+"す。"
+
+#: position/templates/position_buyer_seller.html:423
+msgid "Weighted Avg. Price"
+msgstr "加重平均価格"
+
+#: position/templates/position_buyer_seller.html:431
+msgid "Quantity (Units)"
+msgstr "数量（ユニット）"
+
+#: position/templates/position_buyer_seller.html:432
+msgid "Weighted Price"
+msgstr "加重価格"
+
+#: position/templates/position_buyer_seller.html:448
+msgid "Total Units:"
+msgstr "総ユニット："
+
+#: position/templates/position_buyer_seller.html:452
+msgid "Average Weighted Price:"
+msgstr "平均加重価格："
+
+#: position/templates/position_buyer_seller.html:463
+msgid "Inventory"
+msgstr "在庫"
+
+#: position/templates/position_buyer_seller.html:470
+msgid "Total"
+msgstr "合計"
+
+#: position/templates/position_buyer_seller.html:471
+msgid "Target"
+msgstr "目標"
+
+#: position/templates/position_buyer_seller.html:484
+msgid "Not Go Over:"
+msgstr "超えない："
+
+#: position/templates/position_buyer_seller.html:501
+msgid "Flex Point Send/Receive"
+msgstr "フレックスポイントの送受信"
+
+#: position/templates/position_buyer_seller.html:506
+msgid "From Group"
+msgstr "グループから"
+
+#: position/templates/position_buyer_seller.html:507
+msgid "To Group"
+msgstr "グループへ"
+
+#: position/templates/position_buyer_seller.html:509
+#: position/templates/position_buyer_seller.html:731
+msgid "Message"
+msgstr "メッセージ"
+
+#: position/templates/position_buyer_seller.html:524
+#: position/templates/position_buyer_seller.html:748
+msgid "Note: Only data for the current RPG round are shown."
+msgstr "注：現在のRPGラウンドのデータのみが表示されます。"
+
+#: position/templates/position_buyer_seller.html:528
+msgid "Deals Waiting For Counterpart"
+msgstr "対応を待っている取引"
+
+#: position/templates/position_buyer_seller.html:534
+#: position/templates/position_buyer_seller.html:594
+#: position/templates/position_buyer_seller.html:729
+msgid "To"
+msgstr "宛先"
+
+#: position/templates/position_buyer_seller.html:558
+msgid "Deals Waiting For You"
+msgstr "あなたを待っている取引"
+
+#: position/templates/position_buyer_seller.html:564
+#: position/templates/position_buyer_seller.html:595
+#: position/templates/position_buyer_seller.html:728
+msgid "From"
+msgstr "発信元"
+
+#: position/templates/position_buyer_seller.html:588
+msgid "Deals Mismatched"
+msgstr "取引が不一致"
+
+#: position/templates/position_buyer_seller.html:619
+msgid "These deals use the same Deal ID but do not match."
+msgstr "これらの取引は同じ取引IDを使用していますが、一致しません。"
+
+#: position/templates/position_buyer_seller.html:620
+msgid "Senders need to cancel these."
+msgstr "送信者はこれらをキャンセルする必要があります。"
+
+#: position/templates/position_buyer_seller.html:621
+msgid "Note: Role 1 = Buyer; -1 = Seller."
+msgstr "注：役割1 = 買い手；-1 = 売り手。"
+
+#: position/templates/position_buyer_seller.html:625
+msgid "RPG Score:"
+msgstr "RPG スコア："
+
+#: position/templates/position_buyer_seller.html:630
+#: position/templates/position_buyer_seller.html:635
+#: position/templates/position_buyer_seller.html:639
+msgid "Resistance"
+msgstr "レジスタンス"
+
+#: position/templates/position_buyer_seller.html:632
+#: position/templates/position_buyer_seller.html:633
+msgid "Weighted"
+msgstr "加重"
+
+#: position/templates/position_buyer_seller.html:632
+#: position/templates/position_buyer_seller.html:633
+msgid "Avg. Price"
+msgstr "平均価格"
+
+#: position/templates/position_buyer_seller.html:678
+msgid "Importance"
+msgstr "重要度"
+
+#: position/templates/position_buyer_seller.html:700
+#: position/templates/position_buyer_seller.html:826
+msgid "Inventory Bought"
+msgstr "購入した在庫"
+
+#: position/templates/position_buyer_seller.html:701
+#: position/templates/position_buyer_seller.html:829
+msgid "Inventory Sold"
+msgstr "売却された在庫"
+
+#: position/templates/position_buyer_seller.html:703
+msgid "Score"
+msgstr "スコア"
+
+#: position/templates/position_buyer_seller.html:715
+msgid "SCORE:"
+msgstr "スコア："
+
+#: position/templates/position_buyer_seller.html:723
+msgid "Messages Received"
+msgstr "受信したメッセージ"
+
+#: position/templates/position_buyer_seller.html:730
+msgid "Subject"
+msgstr "件名"
+
+#: position/templates/position_buyer_seller.html:732
+msgid "Date"
+msgstr "日付"
+
+#: position/templates/position_buyer_seller.html:755
+msgid "Change Round"
+msgstr "ラウンド変更"
+
+#: position/templates/position_buyer_seller.html:770
+msgid "RPG Role"
+msgstr "RPG 役割"
+
+#: position/templates/position_buyer_seller.html:771
+msgid "Current Score"
+msgstr "現在のスコア"
+
+#: position/templates/position_buyer_seller.html:772
+msgid "Rank"
+msgstr ""
+
+#: position/templates/position_buyer_seller.html:773
+msgid "Percentile"
+msgstr ""
+
+#: position/templates/position_buyer_seller.html:798
+msgid "Average"
+msgstr "平均"
+
+#: position/templates/position_buyer_seller.html:799
+msgid "[2] Average"
+msgstr "[2] 平均"
+
+#: position/templates/position_buyer_seller.html:801
+msgid "You cannot buy over your resistance price."
+msgstr "レジスタンス価格を超えて購入することはできません。"
+
+#: position/templates/position_buyer_seller.html:802
+msgid "You cannot sell below your resistance price."
+msgstr "レジスタンス価格以下で売ることはできません。"
+
+#: position/templates/position_buyer_seller.html:803
+msgid "Counterpart must be a positive number."
+msgstr "相手方は正の数でなければなりません。"
+
+#: position/templates/position_buyer_seller.html:804
+msgid " Try to make a deal for faster."
+msgstr "より速い取引を試みる。"
+
+#: position/templates/position_buyer_seller.html:805
+msgid " Try to make a deal for higher."
+msgstr "より高い取引を試みる。"
+
+#: position/templates/position_buyer_seller.html:806
+msgid " Try to make a deal for lower."
+msgstr "より低い取引を試みる。"
+
+#: position/templates/position_buyer_seller.html:807
+msgid " Try to make a deal for slower."
+msgstr "より遅い取引を試みる。"
+
+#: position/templates/position_buyer_seller.html:808
+msgid "Delivery must be between Slow and Fast."
+msgstr "配達は遅いと速いの間でなければなりません。"
+
+#: position/templates/position_buyer_seller.html:810
+msgid " Do not buy more than this."
+msgstr "これ以上購入しないでください。"
+
+#: position/templates/position_buyer_seller.html:811
+msgid "Do NOT Buy Over:"
+msgstr "これ以上購入しない："
+
+#: position/templates/position_buyer_seller.html:812
+msgid " Do not pay more than this."
+msgstr "これ以上支払わないでください。"
+
+#: position/templates/position_buyer_seller.html:813
+msgid " Do not sell for less than this."
+msgstr "これ以下で売らないでください。"
+
+#: position/templates/position_buyer_seller.html:814
+msgid " Spend, collect, or gift these."
+msgstr "これらを使う、集める、または贈る。"
+
+#: position/templates/position_buyer_seller.html:815
+msgid "Form validation failed:"
+msgstr "フォームの検証に失敗しました："
+
+#: position/templates/position_buyer_seller.html:816
+msgid "Missing gift receiver."
+msgstr "ギフトの受取人が不足しています。"
+
+#: position/templates/position_buyer_seller.html:817
+msgid "Missing gift amount (must be positive number)."
+msgstr "ギフトの量が不足しています（正の数でなければなりません）。"
+
+#: position/templates/position_buyer_seller.html:818
+msgid "You must include a short message."
+msgstr "短いメッセージを含める必要があります。"
+
+#: position/templates/position_buyer_seller.html:820
+msgid "Going HIGHER spends Flex Points (1 point per 100 units)."
+msgstr ""
+"上昇するとフレックスポイントを消費します（100ユニットごとに1ポイント）。"
+
+#: position/templates/position_buyer_seller.html:821
+msgid "Going LOWER gains Flex Points (1 point per 100 units)."
+msgstr ""
+"下降するとフレックスポイントを獲得します（100ユニットごとに1ポイント）。"
+
+#: position/templates/position_buyer_seller.html:823
+msgid "[3] High"
+msgstr "[3] 高い"
+
+#: position/templates/position_buyer_seller.html:824
+msgid "How important is this deal."
+msgstr "この取引の重要性はどの程度ですか。"
+
+#: position/templates/position_buyer_seller.html:827
+msgid "Inventory bought over your MAX Purchase"
+msgstr "最大購入量を超えた在庫購入"
+
+#: position/templates/position_buyer_seller.html:828
+msgid "will cause bankruptcy."
+msgstr "破産につながります。"
+
+#: position/templates/position_buyer_seller.html:831
+msgid "[1] Low"
+msgstr "[1] 低い"
+
+#: position/templates/position_buyer_seller.html:832
+msgid "MAX Sales:"
+msgstr "最大販売量："
+
+#: position/templates/position_buyer_seller.html:833
+msgid "Missing message receiver."
+msgstr "メッセージ受信者が不足しています。"
+
+#: position/templates/position_buyer_seller.html:834
+msgid "Missing message short subject."
+msgstr "メッセージの短い件名が不足しています。"
+
+#: position/templates/position_buyer_seller.html:835
+msgid "Missing message."
+msgstr "メッセージが不足しています。"
+
+#: position/templates/position_buyer_seller.html:836
+msgid "New Deal ID:"
+msgstr "新しい取引ID："
+
+#: position/templates/position_buyer_seller.html:838
+msgid "Not time for deals yet."
+msgstr "まだ取引の時間ではありません。"
+
+#: position/templates/position_buyer_seller.html:839
+msgid "Deals can begin at "
+msgstr "取引は次の時間から始めることができます "
+
+#: position/templates/position_buyer_seller.html:840
+msgid "Price must be a positive number."
+msgstr "価格は正の数でなければなりません。"
+
+#: position/templates/position_buyer_seller.html:841
+msgid "PURCHASE ORDER"
+msgstr "購入注文"
+
+#: position/templates/position_buyer_seller.html:842
+msgid "Quality must be between Low and High."
+msgstr "品質は低と高の間でなければなりません。"
+
+#: position/templates/position_buyer_seller.html:843
+msgid "SALE INVOICE"
+msgstr "販売請求書"
+
+#: position/templates/position_buyer_seller.html:845
+msgid "Selling over MAX will cost Flex Points to increase capacity."
+msgstr "最大を超える販売は、容量を増やすためにフレックスポイントが必要です。"
+
+#: position/templates/position_buyer_seller.html:846
+msgid " Selling over this will cost Flex Points."
+msgstr "これを超える販売はフレックスポイントがかかります。"
+
+#: position/templates/position_buyer_seller.html:847
+msgid "Slow"
+msgstr "遅い"
+
+#: position/templates/position_buyer_seller.html:850
+msgid " Target buying at least this many."
+msgstr "少なくともこれだけの購入を目指す。"
+
+#: position/templates/position_buyer_seller.html:851
+msgid " Target selling at least this many."
+msgstr "少なくともこれだけの販売を目指す。"
+
+#: position/templates/position_buyer_seller.html:852
+msgid "Target This:"
+msgstr "この目標："
+
+#: position/templates/position_buyer_seller.html:853
+msgid "Units must be a positive number."
+msgstr "ユニットは正の数でなければなりません。"
+
+#: position/templates/position_buyer_seller.html:856
+msgid "Complete Survey"
+msgstr "調査を完了する"
+
+#: position/views.py:1028
+msgid "Deal saved."
+msgstr "取引が保存されました。"
+
+#: position/views.py:1032 position/views.py:1064 position/views.py:1095
+#: position/views.py:1126
+msgid "Form is not valid."
+msgstr "フォームが無効です。"
+
+#: position/views.py:1036 position/views.py:1067 position/views.py:1098
+#: position/views.py:1129
+msgid "Method not allowed."
+msgstr "許可されていない方法です。"
+
+#: position/views.py:1061
+msgid "Cancel of deal saved."
+msgstr "取引のキャンセルが保存されました。"
+
+#: position/views.py:1092
+msgid "Gift sent."
+msgstr "ギフトが送信されました。"
+
+#: position/views.py:1123
+msgid "Message sent."
+msgstr "メッセージが送信されました。"
+
+#: shared_templates/_menu_admin.html:20
+msgid "Settings"
+msgstr "設定"
+
+#: shared_templates/_menu_admin.html:41 shared_templates/_menu_group.html:23
+msgid "Help"
+msgstr "ヘルプ"
+
+#: shared_templates/_menu_admin.html:45 shared_templates/_menu_group.html:27
+msgid "User Guide"
+msgstr "ユーザーガイド"
+
+#: shared_templates/_menu_admin.html:48 shared_templates/_menu_group.html:30
+msgid "Class eBook"
+msgstr "クラス電子ブック"
+
+#: shared_templates/_menu_admin.html:51 shared_templates/_menu_group.html:33
+msgid "Class Slides"
+msgstr "クラススライド"
+
+#: shared_templates/_menu_admin.html:54 shared_templates/_menu_group.html:36
+msgid "Class Lectures"
+msgstr "クラスレクチャー"
+
+#: shared_templates/_menu_group.html:14
+msgid "RPG Dashboard"
+msgstr "RPGダッシュボード"
+
+#: shared_templates/_menu_group.html:42
+msgid "Login Page"
+msgstr "ログインページ"
+
+#: shared_templates/_menu_group.html:48
+msgid "Language"
+msgstr "言語"
+
+#: survey/templates/survey_complete.html:17
+msgid "CLAIM SURVEY GIFT"
+msgstr "調査ギフトを請求する"
+
+#: survey/templates/survey_complete.html:19
+msgid "BACK TO RPG"
+msgstr "RPGへ戻る"
+
+#~ msgid "Data imported successfully!"
+#~ msgstr "データが正常にインポートされました！"
+
+#~ msgid "Significant Positive"
+#~ msgstr "顕著なポジティブ"

@@ -1,0 +1,48 @@
+{% load static %}
+{% load custom_filters %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    {% include "_header_00.html" %}
+    <title>Survey Results</title>
+</head>
+<body>
+    {% include "_menu_admin.html" %}
+
+    <h1>Survey Results</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                {% for header in column_headers %}
+                    <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for student in students_responses %}
+                <tr>
+                    <td>{{ student.student_id }}</td>
+                    {% for header in column_headers %}
+                        <td>{{ student.responses|get_item:header }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+<script>
+
+$(document).ready(function() {
+    //not currently in use
+});//document ready
+
+</script>
+
+</body>
+</html>
+
+
+
+
