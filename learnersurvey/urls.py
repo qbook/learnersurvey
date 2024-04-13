@@ -20,6 +20,7 @@ from survey import views as surveyViews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', surveyViews.survey_home, name='home'),
     path('survey/', surveyViews.survey_home, name='survey'),
     path('survey/start/', surveyViews.start_survey, name='start_survey'),
     path('survey/<int:code_order>/', surveyViews.survey_view, name='survey_view'),
