@@ -22,6 +22,7 @@ def start_survey(request):
     # Clear the 'student_id' from the session in case user was here already
     if 'student_id' in request.session:
         del request.session['student_id']
+    if 'class_name' in request.session:
         del request.session['class_name']
 
     #student_id = '123456'
