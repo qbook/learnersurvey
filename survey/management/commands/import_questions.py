@@ -1,6 +1,6 @@
 # This code is a commandline to import survey questions.
 # Usage: python manage.py import_questions path/to/yourfile.csv
-# This uses a tap delimiter 
+# This uses a tab delimiter 
 # Format CVS columns as: code	code_order	question_en	question_zh	section_name_en	section_name_zh	question_number
 
 import csv
@@ -21,14 +21,16 @@ class Command(BaseCommand):
                     name_en=row['section_name_en'],
                     name_zh=row['section_name_zh'],
                     code=row['code'],
-                    code_order=int(row['code_order'])
+                    code_order=int(row['code_order']),
+                    class_name=row['class_name'],
                 )
                 SurveyQuestion.objects.create(
                     section_code=row['code'],
                     section=section,
                     text_en=row['question_en'],
                     text_zh=row['question_zh'],
-                    question_number=int(row['question_number'])
+                    question_number=int(row['question_number']),
+                    class_name=row['class_name'],
                 )
         self.stdout.write(self.style.SUCCESS('Successfully imported questions'))
 
