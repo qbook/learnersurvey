@@ -20,26 +20,35 @@ def survey_home(request):
 def start_survey(request):
     # -------FOR TESTING CLYDE--------------------------------------------------------
     # Clear the 'student_id' from the session in case user was here already
-    if 'student_id' in request.session:
-        del request.session['student_id']
-    if 'class_name' in request.session:
-        del request.session['class_name']
+    #if 'student_id' in request.session:
+    #    del request.session['student_id']
+    #if 'class_name' in request.session:
+    #    del request.session['class_name']
 
     #student_id = '123456'
     #request.session['student_id'] = student_id
     #request.session['currentClassName'] = 'Research Writing & Presentation 2024'    
     # -------END TESTING CLYDE--------------------------------------------------------
 
-    # Get student_id and class_name from URL parameters
+    # get values from URL query string
     student_id = request.GET.get('student_id')
     class_name = request.GET.get('class_name')
-    if student_id and class_name:
-        # Set 'student_id' in the session and local variable
-        request.session['student_id'] = student_id
-        request.session['currentClassName'] = class_name
+
+# Check if URL has a student ID different from session        
+    if student_id is not None: # Value IS in URL
+        if student_id != request.session.get('student_id'):
+            del request.session['student_id']
+            del request.session['currentClassname']
+            # Set 'student_id' in the session and local variable
+            request.session['student_id'] = student_id
+            request.session['currentClassName'] = class_name
+
+    if 'student_id' in request.session: # Session values were NOT deleted above due to URL values present
+        student_id = request.session.get('student_id')
+        class_name = request.session.get('currentClassName')
     else:
         return redirect('home')
-
+        
     #if not student_id:
         # Redirect to a page where student_id can be set or retrieved
         #return redirect('position_buyer_seller') #-------------CLYDE set this to the choose user maybe------
