@@ -36,7 +36,7 @@ def start_survey(request):
     if student_id and class_name:
         # Set 'student_id' in the session and local variable
         request.session['student_id'] = student_id
-        request.session['class_name'] = class_name
+        request.session['currentClassName'] = class_name
     else:
         return redirect('home')
 
