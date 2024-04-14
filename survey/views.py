@@ -14,12 +14,17 @@ from django.http import HttpResponse # CLYDE this is for testing during start of
 
 # Create your views here.
 def survey_home(request):
-    return HttpResponse('<h1>Welcome to Home Page</h1>')
+    #return HttpResponse('<h1>Go </h1>')
+    return render(request, 'survey_home.html')
 
 def start_survey(request):
     # -------FOR TESTING CLYDE--------------------------------------------------------
-    student_id = '123456'
-    request.session['student_id'] = student_id
+    # Clear the 'student_id' from the session in case user was here already
+    if 'student_id' in request.session:
+        del request.session['student_id']
+
+    #student_id = '123456'
+    #request.session['student_id'] = student_id
     request.session['currentClassName'] = 'Research Writing & Presentation 2024'
     # -------END TESTING CLYDE--------------------------------------------------------
 

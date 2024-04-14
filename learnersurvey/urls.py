@@ -15,7 +15,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, re_path
 from survey import views as surveyViews
 
 urlpatterns = [
@@ -26,4 +26,8 @@ urlpatterns = [
     path('survey/<int:code_order>/', surveyViews.survey_view, name='survey_view'),
     path('survey/submit/<int:code_order>/', surveyViews.submit_survey, name='submit_survey'),
     path('survey/complete/', surveyViews.survey_complete, name='survey_complete'),
+    #Next must come LAST is catch all for non-matching URLs
+    # other URL patterns
+    re_path(r'^.*$', surveyViews.survey_home, name='landing_page'),
+
 ]
