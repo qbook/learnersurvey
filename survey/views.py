@@ -37,8 +37,8 @@ def start_survey(request):
 # Check if URL has a student ID different from session        
     if student_id is not None: # Value IS in URL
         if student_id != request.session.get('student_id'):
-            del request.session['student_id']
-            del request.session['currentClassName']
+            request.session.pop('student_id', None)
+            request.session.pop('currentClassName', None)
             # Set 'student_id' in the session and local variable
             request.session['student_id'] = student_id
             request.session['currentClassName'] = class_name
