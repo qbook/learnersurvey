@@ -9,17 +9,16 @@
 <body>
     <div class="container mt-4">
         <div class="card-header">
-            <h5 class="card-title">Survey Complete</h5>
+            <h5 class="card-title">Survey Complete 調查完成</h5>
         <div>
         <div class="card text-dark bg-light mb-3 shadow">
             <div class="card-body">
-                <p><a href="{{ surveyReward }}{{ student_id }}" target="_self">{% trans "CLAIM SURVEY GIFT" %}</a></p>
-
-                <!-- {{ surveyReward }}{{ student_id }} -->
+                <p><a href="{{ surveyReward }}{{ student_id }}" target="_self">{% trans "CLAIM SURVEY GIFT 在此領取調查禮物" %}<br>
+                <img src="{% static 'images/logoClass00.png' %}" alt="Class Logo" class="img-fluid">
+            </a></p>
             </div>
         </div>
     </div>
-
 <script>
 $(document).ready(function() {
 
