@@ -98,6 +98,7 @@ def survey_view(request, code_order):
 def submit_survey(request, code_order):
     if request.method == 'POST':
         student_id = request.session.get('student_id')
+        currentClassName = request.session.get('currentClassName')
 
         # Get the corresponding section based on code_order
         section = get_object_or_404(SurveySection, code_order=code_order)
@@ -109,6 +110,7 @@ def submit_survey(request, code_order):
                 response_value = request.POST[response_key]
                 UserResponse.objects.update_or_create(
                     student_id=student_id,
+                    groupClass=currentClassName,
                     section_code=section.code_order,  # Assuming 'code_order' is the field in SurveySection
                     question_number=question.question_number,  # Use the new field
                     defaults={
@@ -152,8 +154,11 @@ def survey_results(request):
         # Redirect to the login URL if the user does not have admin access
         return redirect('home')
 
-    # Get all unique student IDs
-    student_ids = UserResponse.objects.values_list('student_id', flat=True).distinct()
+    # Retrieve the current class name from the session
+    currentClassName = request.session.get('currentClassName')
+
+    # Get all unique student IDs for the current class only
+    student_ids = UserResponse.objects.filter(groupClass=currentClassName).values_list('student_id', flat=True).distinct()
 
     # Get a composite list of section code_orders and question numbers for column headers
     sections = SurveySection.objects.order_by('code_order')
